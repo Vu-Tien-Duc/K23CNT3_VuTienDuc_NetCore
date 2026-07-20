@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K23CNT3_VuTienDuc_NetCore\\VtdHelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E950214C-B232-4D85-B69F-18CA7993F907}|VtdHelloWorld\\VtdHelloWorld.csproj|d:\\k23cnt3_vutienduc_netcore\\vtdhelloworld\\vtdhelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E950214C-B232-4D85-B69F-18CA7993F907}|VtdHelloWorld\\VtdHelloWorld.csproj|solutionrelative:vtdhelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\VtdHelloWorld\\VtdHelloWorld\\Program.cs",
+              "RelativeDocumentMoniker": "VtdHelloWorld\\Program.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\VtdHelloWorld\\VtdHelloWorld\\Program.cs",
+              "RelativeToolTip": "VtdHelloWorld\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:51:36.68Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 132,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

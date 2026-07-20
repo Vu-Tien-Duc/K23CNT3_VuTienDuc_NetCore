@@ -1,0 +1,51 @@
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\appsettings.Development.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\appsettings.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.exe
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.deps.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.runtimeconfig.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.dll
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.pdb
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.AssemblyInfoInputs.cache
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.AssemblyInfo.cs
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.csproj.CoreCompileInputs.cache
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.MvcApplicationPartsAssemblyInfo.cache
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.development.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.VtdHelloWorld.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.build.VtdHelloWorld.props
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VtdHelloWorld.props
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VtdHelloWorld.props
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\scopedcss\bundle\VtdHelloWorld.styles.css
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.dll
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\refint\VtdHelloWorld.dll
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.pdb
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.genruntimeconfig.cache
+D:\Cong nghe .NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\ref\VtdHelloWorld.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\appsettings.Development.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\appsettings.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.exe
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.deps.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.runtimeconfig.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\bin\Debug\net8.0\VtdHelloWorld.pdb
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.AssemblyInfoInputs.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.AssemblyInfo.cs
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.csproj.CoreCompileInputs.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.MvcApplicationPartsAssemblyInfo.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.sourcelink.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.build.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.development.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.VtdHelloWorld.Microsoft.AspNetCore.StaticWebAssets.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.build.VtdHelloWorld.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VtdHelloWorld.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VtdHelloWorld.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\staticwebassets.pack.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\scopedcss\bundle\VtdHelloWorld.styles.css
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\refint\VtdHelloWorld.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.pdb
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\VtdHelloWorld.genruntimeconfig.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdHelloWorld\VtdHelloWorld\obj\Debug\net8.0\ref\VtdHelloWorld.dll

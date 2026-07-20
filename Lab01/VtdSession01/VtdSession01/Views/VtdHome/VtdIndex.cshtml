@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<!-- 1. Phần Banner (Carousel) tự động lướt -->
+<!-- Thêm data-bs-ride="carousel" để tự chạy -->
+<div id="homeCarousel" class="carousel slide mb-5" data-bs-ride="carousel" style="background-color: #00458f; color: white;">
+
+    <!-- Các dấu chấm điều hướng -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Nội dung Banner -->
+    <div class="carousel-inner text-center py-5">
+
+        <!-- Slide 1: Azure (Cần có class "active" cho slide đầu tiên) -->
+        <div class="carousel-item active py-5" data-bs-interval="4000">
+            <h1 class="display-4 font-weight-bold mb-4">Microsoft Azure</h1>
+            <p class="lead mt-4">
+                Learn how Microsoft's Azure cloud platform allows you to build, deploy, and<br />
+                scale web apps. <a href="#" class="btn btn-light btn-sm text-dark font-weight-bold ml-2">Learn More</a>
+            </p>
+        </div>
+
+        <!-- Slide 2: Khuyến mãi / Giới thiệu thêm (Bạn có thể đổi text tùy ý) -->
+        <div class="carousel-item py-5" data-bs-interval="4000">
+            <h1 class="display-4 font-weight-bold mb-4">Bộ Sưu Tập Mới</h1>
+            <p class="lead mt-4">
+                Khám phá các dòng sản phẩm túi xách cao cấp với thiết kế hiện đại.<br />
+                Đa dạng mẫu mã, phù hợp với mọi phong cách. <a href="#" class="btn btn-light btn-sm text-dark font-weight-bold ml-2">Xem Ngay</a>
+            </p>
+        </div>
+
+        <!-- Slide 3: Ưu đãi -->
+        <div class="carousel-item py-5" data-bs-interval="4000">
+            <h1 class="display-4 font-weight-bold mb-4">Ưu Đãi Đặc Biệt</h1>
+            <p class="lead mt-4">
+                Giảm giá lên đến 30% cho các đơn hàng đặt mua trong tuần này.<br />
+                Miễn phí giao hàng toàn quốc. <a href="#" class="btn btn-light btn-sm text-dark font-weight-bold ml-2">Nhận Ưu Đãi</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Nút sang trái/phải -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- 2. Phần Danh sách sản phẩm (Giữ nguyên) -->
+<div class="container">
+    <h3 class="mb-4 text-secondary">Danh sách sản phẩm</h3>
+    <div class="row">
+
+        <!-- Sản phẩm 1 -->
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 border-light shadow-sm text-center">
+                <img src="~/images/product1.jpg" class="card-img-top p-3" alt="Product 1" style="height: 200px; object-fit: contain;">
+                <div class="card-body border-top">
+                    <h5 class="card-title text-muted">Product Name 1</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 2 -->
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 border-light shadow-sm text-center">
+                <img src="~/images/product2.jpg" class="card-img-top p-3" alt="Product 2" style="height: 200px; object-fit: contain;">
+                <div class="card-body border-top">
+                    <h5 class="card-title text-muted">Product Name 2</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 3 -->
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 border-light shadow-sm text-center">
+                <img src="~/images/product3.jpg" class="card-img-top p-3" alt="Product 3" style="height: 200px; object-fit: contain;">
+                <div class="card-body border-top">
+                    <h5 class="card-title text-muted">Product Name 3</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 4 -->
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 border-light shadow-sm text-center">
+                <img src="~/images/product4.jpg" class="card-img-top p-3" alt="Product 4" style="height: 200px; object-fit: contain;">
+                <div class="card-body border-top">
+                    <h5 class="card-title text-muted">Product Name 4</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

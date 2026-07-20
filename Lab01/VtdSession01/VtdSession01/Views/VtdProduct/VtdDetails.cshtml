@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a asp-controller="VtdProduct" asp-action="VtdIndex">Sản phẩm</a></li>
+            <li class="breadcrumb-item active" aria-current="page">iPhone 15 Pro Max</li>
+        </ol>
+    </nav>
+
+    <div class="row shadow-sm p-4 bg-white rounded">
+        <!-- Cột Hình ảnh -->
+        <div class="col-md-5 text-center border-end">
+            <!-- Đổi tên file ảnh thành phone1.jpg -->
+            <img src="~/images/product1.jpg" class="img-fluid rounded p-2" alt="Product Image" style="max-height: 400px; object-fit: contain;" />
+        </div>
+
+        <!-- Cột Thông tin -->
+        <div class="col-md-7 ps-md-5 mt-4 mt-md-0">
+            <h2 class="text-primary mb-3">iPhone 15 Pro Max 256GB</h2>
+            <h3 class="text-danger fw-bold mb-4">29.990.000 VNĐ</h3>
+
+            <p><strong>Thương hiệu:</strong> Apple</p>
+            <p><strong>Tình trạng:</strong> Còn hàng</p>
+            <p><strong>Bảo hành:</strong> 12 tháng chính hãng</p>
+            <p><strong>Mô tả sản phẩm:</strong></p>
+            <p class="text-muted">
+                Siêu phẩm iPhone 15 Pro Max với khung viền Titanium chuẩn hàng không vũ trụ, mang lại thiết kế siêu nhẹ và bền bỉ.
+                Được trang bị chip A17 Pro mạnh mẽ nhất thế giới smartphone, cân mọi tựa game đồ họa cao.
+                Hệ thống camera siêu zoom quang học 5x sắc nét, màn hình Dynamic Island mượt mà 120Hz.
+            </p>
+
+            <div class="mt-4">
+                <a asp-controller="VtdProduct" asp-action="VtdIndex" class="btn btn-secondary btn-lg">
+                    Quay lại
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

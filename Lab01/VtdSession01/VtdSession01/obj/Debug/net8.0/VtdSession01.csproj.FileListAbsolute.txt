@@ -1,0 +1,61 @@
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\appsettings.Development.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\appsettings.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.staticwebassets.runtime.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.exe
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.deps.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.runtimeconfig.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.dll
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.pdb
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.AssemblyInfoInputs.cache
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.AssemblyInfo.cs
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.csproj.CoreCompileInputs.cache
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.MvcApplicationPartsAssemblyInfo.cache
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.RazorAssemblyInfo.cache
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.RazorAssemblyInfo.cs
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.development.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.VtdSession01.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.build.VtdSession01.props
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VtdSession01.props
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VtdSession01.props
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\bundle\VtdSession01.styles.css
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\projectbundle\VtdSession01.bundle.scp.css
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.dll
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\refint\VtdSession01.dll
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.pdb
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.genruntimeconfig.cache
+D:\Cong nghe .NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\ref\VtdSession01.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.GeneratedMSBuildEditorConfig.editorconfig
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.AssemblyInfoInputs.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.AssemblyInfo.cs
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.csproj.CoreCompileInputs.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.MvcApplicationPartsAssemblyInfo.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.RazorAssemblyInfo.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.RazorAssemblyInfo.cs
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.sourcelink.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\appsettings.Development.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\appsettings.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.staticwebassets.runtime.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.exe
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.deps.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.runtimeconfig.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\bin\Debug\net8.0\VtdSession01.pdb
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.build.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.development.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.VtdSession01.Microsoft.AspNetCore.StaticWebAssets.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.build.VtdSession01.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VtdSession01.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VtdSession01.props
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\staticwebassets.pack.json
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\bundle\VtdSession01.styles.css
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\scopedcss\projectbundle\VtdSession01.bundle.scp.css
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\refint\VtdSession01.dll
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.pdb
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\VtdSession01.genruntimeconfig.cache
+D:\K23CNT3_VuTienDuc_NetCore\VtdSession01\VtdSession01\obj\Debug\net8.0\ref\VtdSession01.dll
