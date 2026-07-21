@@ -1,0 +1,42 @@
+﻿@{
+    var p = ViewBag.Product;
+}
+
+<h2>Chi tiết điện thoại</h2>
+
+<div class="row">
+
+    <div class="col-md-4">
+
+        <img src="@p.Image"
+             style="width:100%" />
+
+    </div>
+
+    <div class="col-md-8">
+
+        <h2>@p.ProductName</h2>
+
+        <h4>Hãng: @p.Brand</h4>
+
+        <h4>Mô tả: @p.Description</h4>
+
+        <h4>
+            Giá cũ:
+            <del>@p.OldPrice.ToString("N0") VNĐ</del>
+        </h4>
+
+        <h3 style="color:red">
+            Giá bán:
+            @p.Price.ToString("N0") VNĐ
+        </h3>
+
+        <a asp-controller="VtdProduct"
+           asp-action="VtdIndex"
+           class="btn btn-danger">
+            Quay lại
+        </a>
+
+    </div>
+
+</div>

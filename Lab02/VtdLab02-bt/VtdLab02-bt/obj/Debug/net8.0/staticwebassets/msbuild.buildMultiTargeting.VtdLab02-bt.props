@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VtdLab02-bt.props" />
+</Project>
