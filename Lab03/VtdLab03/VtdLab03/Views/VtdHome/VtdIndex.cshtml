@@ -1,0 +1,30 @@
+﻿<!-- Khai báo kiểu dữ liệu Model nhận từ Controller[cite: 5] -->
+@model IEnumerable<VtdLab03.Models.VtdProduct>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Sản phẩm mới nhất</div>
+    <div class="panel-body">
+        <div class="row">
+            <!-- Dùng vòng lặp foreach để duyệt qua từng sản phẩm trong Model[cite: 5] -->
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 text-center">
+                    <div class="thumbnail">
+                        <img src="@item.Image" alt="@item.Name">
+                        <div class="caption">
+                            <p style="font-size: 14px;">@item.Name</p>
+                            <!-- Có thể thêm giá tiền nếu muốn: <p style="color: red; font-weight: bold;">@item.Price.ToString("N0") VNĐ</p> -->
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Gọi Component VtdHotProduct cho phần phía dưới -->
+@await Component.InvokeAsync("VtdHotProduct")

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VtdLab03</title>
+    <!-- Nhúng Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        .header-bg { background-color: #222; color: #fff; padding: 10px 0; }
+        .header-bg a { color: #9d9d9d; margin-right: 20px; text-decoration: none; font-size: 14px; }
+        .header-bg a.active, .header-bg a:hover { color: #fff; }
+        .footer-bg { background-color: #333; color: #ccc; padding: 30px 0; margin-top: 20px; }
+        .panel-primary > .panel-heading { background-color: #337ab7; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <!-- Header (Menu) -->
+    <div class="header-bg">
+        <div class="container">
+            <a asp-controller="VtdHome" asp-action="VtdIndex" class="active" style="font-weight:bold; color:#fff;">VTD LAB03</a>
+            <a asp-controller="VtdHome" asp-action="VtdIndex" class="active">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Liên hệ</a>
+            <a href="#">Sản phẩm</a>
+        </div>
+    </div>
+
+    <!-- Main Content chia 2 cột -->
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <!-- Cột trái: Load từ Partial View -->
+            <div class="col-md-3">
+                <partial name="_VtdSidebarPartial" />
+            </div>
+
+            <!-- Cột phải: Load từ View Action và Component -->
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 style="color:#fff;">GIỚI THIỆU</h4>
+                    <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab suscipit deserunt mollitia reiciendis, nobis iure aliquam velit et laboriosam ducimus veritatis corporis est, dolores aperiam.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="color:#fff;">LIÊN HỆ</h4>
+                    <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet suscipit quasi quisquam impedit magni molestias. Dolores, aliquid commodi ut esse eos voluptatem nisi facilis dolorem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
