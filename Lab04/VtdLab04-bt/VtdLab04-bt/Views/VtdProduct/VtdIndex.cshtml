@@ -1,0 +1,112 @@
+﻿@model IEnumerable<VtdLab04_bt.Models.VtdProduct>
+
+@{
+    ViewData["Title"] = "VtdIndex";
+    var categories = ViewBag.Categories as List<VtdLab04_bt.Models.VtdCategory>;
+}
+
+<h1>Danh sách sản phẩm</h1>
+
+<p>
+    <a asp-action="VtdCreate" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SalePrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                Danh mục
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.SalePrice)
+                </td>
+
+                <td>
+                    @(item.Status ? "Còn hàng" : "Hết hàng")
+                </td>
+
+                <td>
+                    @item.CreatedDate.ToString("dd/MM/yyyy")
+                </td>
+
+                <td>
+                    <img src="@item.Image"
+                         width="80"
+                         height="80"
+                         style="object-fit:cover" />
+                </td>
+
+                <td>
+                    @{
+                        var category = categories?.FirstOrDefault(x => x.Id == item.CategoryId);
+                    }
+
+                    @(category != null ? category.Name : "")
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Edit", "VtdEdit", new { id = item.Id }) |
+
+                    @Html.ActionLink("Details", "VtdDetails", new { id = item.Id }) |
+
+                    @Html.ActionLink("Delete", "VtdDelete", new { id = item.Id })
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
