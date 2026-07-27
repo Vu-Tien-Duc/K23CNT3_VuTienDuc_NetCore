@@ -1,0 +1,33 @@
+﻿@model K23CNT3_VuTienDuc_BaiTX1.Models.VtdCategory
+@{
+    ViewData["Title"] = "Chi tiết thể loại";
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-tag me-2 text-primary"></i>Chi tiết thể loại</h2>
+    <p class="text-muted mb-0">Thông tin thể loại sách</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted fw-normal">@Html.DisplayNameFor(model => model.VtdCategoryName)</dt>
+                    <dd class="col-sm-8 fw-semibold">
+                        <i class="bi bi-bookmark me-2 text-secondary"></i>@Html.DisplayFor(model => model.VtdCategoryName)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-3 d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model?.VtdCategoryId" class="btn btn-warning">
+        <i class="bi bi-pencil me-1"></i> Sửa
+    </a>
+    <a asp-action="Index" class="btn btn-outline-secondary">
+        <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+    </a>
+</div>

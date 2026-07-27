@@ -1,0 +1,63 @@
+﻿@model IEnumerable<K23CNT3_VuTienDuc_BaiTX1.Models.VtdPublisher>
+
+@{
+    ViewData["Title"] = "Danh sách Nhà xuất bản";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-building me-2 text-primary"></i>Danh sách Nhà xuất bản</h2>
+        <p class="text-muted mb-0">Quản lý thông tin các nhà xuất bản</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="bi bi-plus-circle me-1"></i> Thêm mới
+    </a>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th class="ps-3">@Html.DisplayNameFor(model => model.VtdPublisherName)</th>
+                    <th><i class="bi bi-telephone me-1"></i>@Html.DisplayNameFor(model => model.VtdPhone)</th>
+                    <th><i class="bi bi-geo-alt me-1"></i>@Html.DisplayNameFor(model => model.VtdAddress)</th>
+                    <th class="text-end pe-3">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="4" class="text-center text-muted py-4">
+                            <i class="bi bi-inbox fs-3 d-block mb-2"></i>
+                            Chưa có nhà xuất bản nào.
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="ps-3 fw-semibold">@Html.DisplayFor(modelItem => item.VtdPublisherName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.VtdPhone)</td>
+                            <td>@Html.DisplayFor(modelItem => item.VtdAddress)</td>
+                            <td class="text-end pe-3">
+                                <a asp-action="Details" asp-route-id="@item.VtdPublisherId" class="btn btn-sm btn-outline-secondary" title="Chi tiết">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                                <a asp-action="Edit" asp-route-id="@item.VtdPublisherId" class="btn btn-sm btn-outline-warning" title="Sửa">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.VtdPublisherId" class="btn btn-sm btn-outline-danger" title="Xóa">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
