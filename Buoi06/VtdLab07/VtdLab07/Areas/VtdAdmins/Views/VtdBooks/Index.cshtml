@@ -1,0 +1,87 @@
+﻿@model IEnumerable<VtdLab07.Models.VtdBook>
+
+@{
+    ViewData["Title"] = "Danh sách Sách";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-book me-2 text-primary"></i>Danh sách Sách</h2>
+        <p class="text-muted mb-0">Quản lý thông tin các đầu sách</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="bi bi-plus-circle me-1"></i> Thêm mới
+    </a>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th class="ps-3">Ảnh bìa</th>
+                    <th>@Html.DisplayNameFor(model => model.VtdTitle)</th>
+                    <th>@Html.DisplayNameFor(model => model.VtdAuthor)</th>
+                    <th>@Html.DisplayNameFor(model => model.VtdRelease)</th>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.VtdPrice)</th>
+                    <th>Thể loại</th>
+                    <th>Nhà xuất bản</th>
+                    <th class="text-end pe-3">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="8" class="text-center text-muted py-4">
+                            <i class="bi bi-inbox fs-3 d-block mb-2"></i>
+                            Chưa có sách nào.
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="ps-3">
+                                @if (!string.IsNullOrEmpty(item.VtdPicture))
+                                {
+                                    <img src="@item.VtdPicture" alt="@item.VtdTitle" class="rounded" style="width:48px;height:64px;object-fit:cover;" />
+                                }
+                                else
+                                {
+                                    <div class="d-flex align-items-center justify-content-center bg-light rounded text-muted" style="width:48px;height:64px;">
+                                        <i class="bi bi-image"></i>
+                                    </div>
+                                }
+                            </td>
+                            <td class="fw-semibold">
+                                @Html.DisplayFor(modelItem => item.VtdTitle)
+                                <div class="text-muted small" style="max-width:260px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                                    @item.VtdDescription
+                                </div>
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.VtdAuthor)</td>
+                            <td>@item.VtdRelease</td>
+                            <td class="text-end fw-bold text-success">@item.VtdPrice?.ToString("N0") đ</td>
+                            <td><span class="badge bg-light text-dark border">@Html.DisplayFor(modelItem => item.VtdCategory.VtdCategoryName)</span></td>
+                            <td>@Html.DisplayFor(modelItem => item.VtdPublisher.VtdPublisherName)</td>
+                            <td class="text-end pe-3">
+                                <a asp-action="Details" asp-route-id="@item.VtdBookId" class="btn btn-sm btn-outline-secondary" title="Chi tiết">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                                <a asp-action="Edit" asp-route-id="@item.VtdBookId" class="btn btn-sm btn-outline-warning" title="Sửa">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.VtdBookId" class="btn btn-sm btn-outline-danger" title="Xóa">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

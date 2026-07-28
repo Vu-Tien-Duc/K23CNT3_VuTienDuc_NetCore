@@ -1,0 +1,71 @@
+﻿@model VtdLab07.Models.VtdOrderDetail
+@{
+    ViewData["Title"] = "Thêm chi tiết đơn hàng";
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-list-check me-2 text-primary"></i>Thêm chi tiết đơn hàng</h2>
+    <p class="text-muted mb-0">Thêm một mục sách vào đơn hàng</p>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2"></div>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="VtdOrderId" class="form-label fw-semibold"><i class="bi bi-receipt me-1"></i>Đơn hàng</label>
+                    <select asp-for="VtdOrderId" class="form-select" asp-items="ViewBag.VtdOrderId">
+                        <option value="">-- Chọn đơn hàng --</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="VtdBookId" class="form-label fw-semibold"><i class="bi bi-book me-1"></i>Sách</label>
+                    <select asp-for="VtdBookId" class="form-select" asp-items="ViewBag.VtdBookId">
+                        <option value="">-- Chọn sách --</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="VtdQuantity" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdQuantity" type="number" min="1" class="form-control" placeholder="Số lượng" />
+                    <span asp-validation-for="VtdQuantity" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="VtdPrice" class="form-label fw-semibold"></label>
+                    <div class="input-group">
+                        <input asp-for="VtdPrice" type="number" step="1000" min="0" class="form-control" placeholder="0" />
+                        <span class="input-group-text">đ</span>
+                    </div>
+                    <span asp-validation-for="VtdPrice" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="VtdTotalMoney" class="form-label fw-semibold"></label>
+                    <div class="input-group">
+                        <input asp-for="VtdTotalMoney" type="number" step="1000" min="0" class="form-control" placeholder="0" />
+                        <span class="input-group-text">đ</span>
+                    </div>
+                    <span asp-validation-for="VtdTotalMoney" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <hr class="my-4" />
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary px-4">
+                    <i class="bi bi-check-circle me-1"></i> Tạo mới
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                    <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

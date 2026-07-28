@@ -1,0 +1,84 @@
+﻿@model VtdLab07.Models.VtdAccount
+@{
+    ViewData["Title"] = "Chi tiết tài khoản";
+    var avatarSrc = "";
+    if (!string.IsNullOrEmpty(Model?.VtdPicture))
+    {
+        avatarSrc = (Model.VtdPicture.StartsWith("http") || Model.VtdPicture.StartsWith("/"))
+            ? Model.VtdPicture
+            : Url.Content("~/images/account/" + Model.VtdPicture);
+    }
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-person-lines-fill me-2 text-primary"></i>Chi tiết tài khoản</h2>
+    <p class="text-muted mb-0">Thông tin đầy đủ của tài khoản</p>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+        <div class="d-flex align-items-center mb-4">
+            @if (!string.IsNullOrEmpty(avatarSrc))
+            {
+                <img src="@avatarSrc" alt="@Model.VtdUsername" class="rounded-circle me-3" style="width:72px;height:72px;object-fit:cover;" />
+            }
+            else
+            {
+                <div class="rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center me-3 text-secondary" style="width:72px;height:72px;">
+                    <i class="bi bi-person fs-3"></i>
+                </div>
+            }
+            <div>
+                <div class="fw-bold fs-5">@Html.DisplayFor(model => model.VtdFullName)</div>
+                <div class="text-muted">@@@Html.DisplayFor(model => model.VtdUsername)</div>
+            </div>
+        </div>
+
+        <dl class="row mb-0">
+            <dt class="col-sm-3 text-muted fw-normal"><i class="bi bi-key me-1"></i>@Html.DisplayNameFor(model => model.VtdPassword)</dt>
+            <dd class="col-sm-9">••••••••</dd>
+
+            <dt class="col-sm-3 text-muted fw-normal"><i class="bi bi-envelope me-1"></i>@Html.DisplayNameFor(model => model.VtdEmail)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.VtdEmail)</dd>
+
+            <dt class="col-sm-3 text-muted fw-normal"><i class="bi bi-telephone me-1"></i>@Html.DisplayNameFor(model => model.VtdPhone)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.VtdPhone)</dd>
+
+            <dt class="col-sm-3 text-muted fw-normal"><i class="bi bi-geo-alt me-1"></i>@Html.DisplayNameFor(model => model.VtdAddress)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.VtdAddress)</dd>
+
+            <dt class="col-sm-3 text-muted fw-normal">Vai trò</dt>
+            <dd class="col-sm-9">
+                @if (Model.VtdIsAdmin == true)
+                {
+                    <span class="badge bg-primary"><i class="bi bi-shield-check me-1"></i>Quản trị</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">Khách hàng</span>
+                }
+            </dd>
+
+            <dt class="col-sm-3 text-muted fw-normal">Trạng thái</dt>
+            <dd class="col-sm-9">
+                @if (Model.VtdActive == true)
+                {
+                    <span class="badge bg-success">Hoạt động</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">Bị khóa</span>
+                }
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3 d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model?.VtdAccountId" class="btn btn-warning">
+        <i class="bi bi-pencil me-1"></i> Sửa
+    </a>
+    <a asp-action="Index" class="btn btn-outline-secondary">
+        <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+    </a>
+</div>

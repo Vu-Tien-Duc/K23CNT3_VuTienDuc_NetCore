@@ -1,0 +1,56 @@
+﻿@model VtdLab07.Models.VtdPublisher
+@{
+    ViewData["Title"] = "Thêm nhà xuất bản";
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-building-add me-2 text-primary"></i>Thêm nhà xuất bản mới</h2>
+    <p class="text-muted mb-0">Nhập thông tin nhà xuất bản</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="VtdPublisherName" class="form-label fw-semibold"></label>
+                        <input asp-for="VtdPublisherName" class="form-control" placeholder="Tên nhà xuất bản" />
+                        <span asp-validation-for="VtdPublisherName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VtdPhone" class="form-label fw-semibold"></label>
+                        <input asp-for="VtdPhone" class="form-control" placeholder="Số điện thoại liên hệ" />
+                        <span asp-validation-for="VtdPhone" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VtdAddress" class="form-label fw-semibold"></label>
+                        <input asp-for="VtdAddress" class="form-control" placeholder="Địa chỉ" />
+                        <span asp-validation-for="VtdAddress" class="text-danger small"></span>
+                    </div>
+
+                    <hr class="my-4" />
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary px-4">
+                            <i class="bi bi-check-circle me-1"></i> Tạo mới
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                            <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

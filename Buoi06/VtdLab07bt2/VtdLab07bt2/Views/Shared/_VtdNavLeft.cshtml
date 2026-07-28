@@ -1,0 +1,98 @@
+﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <a asp-area="VtdAdmins"
+       asp-controller="VtdDashboard"
+       asp-action="Index"
+       class="brand-link">
+
+        <img src="~/dist/img/AdminLTELogo.png"
+             class="brand-image img-circle elevation-3">
+
+        <span class="brand-text font-weight-light">
+            Book Store
+        </span>
+
+    </a>
+
+    <div class="sidebar">
+
+        <nav class="mt-2">
+
+            <ul class="nav nav-pills nav-sidebar flex-column">
+
+                <li class="nav-item">
+                    <a asp-area="VtdAdmins"
+                       asp-controller="Home"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        <!-- Dashboard: Đổi thành fa-tachometer-alt (đồng hồ tốc độ) chuẩn AdminLTE -->
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+
+                        <p>Dashboard</p>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="VtdAdmins"
+                       asp-controller="VtdProducts"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        <!-- Products: Đổi thành fa-box (hộp sản phẩm) -->
+                        <i class="nav-icon fas fa-box"></i>
+
+                        <p>Products</p>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="VtdAdmins"
+                       asp-controller="VtdCategories"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        <!-- Category: Đổi thành fa-tags (thẻ phân loại) hoặc có thể giữ fa-list -->
+                        <i class="nav-icon fas fa-tags"></i>
+
+                        <p>Category</p>
+
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a asp-area="VtdAdmins"
+                       asp-controller="VtdBanners"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        <!-- Banners: Đổi thành fa-images (hình ảnh quảng cáo) -->
+                        <i class="nav-icon fas fa-images"></i>
+
+                        <p>Banners</p>
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-area="VtdAdmins"
+                       asp-controller="VtdBlogs"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        <!-- Blogs: Đổi thành fa-newspaper (báo chí/tin tức) -->
+                        <i class="nav-icon fas fa-newspaper"></i>
+
+                        <p>Blogs</p>
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</aside>

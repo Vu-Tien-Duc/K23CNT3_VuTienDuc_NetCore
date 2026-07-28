@@ -1,0 +1,119 @@
+﻿@model VtdLab07.Models.VtdAccount
+@{
+    ViewData["Title"] = "Thêm tài khoản";
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-person-plus me-2 text-primary"></i>Thêm tài khoản mới</h2>
+    <p class="text-muted mb-0">Nhập thông tin để tạo tài khoản người dùng</p>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2"></div>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="VtdAccountId" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdAccountId" class="form-control" placeholder="Nhập mã tài khoản" />
+                    <span asp-validation-for="VtdAccountId" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="VtdUsername" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdUsername" class="form-control" placeholder="Tên đăng nhập" />
+                    <span asp-validation-for="VtdUsername" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="VtdPassword" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdPassword" type="password" class="form-control" placeholder="Mật khẩu" />
+                    <span asp-validation-for="VtdPassword" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="VtdFullName" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdFullName" class="form-control" placeholder="Họ và tên" />
+                    <span asp-validation-for="VtdFullName" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="VtdEmail" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdEmail" type="email" class="form-control" placeholder="ten@example.com" />
+                    <span asp-validation-for="VtdEmail" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="VtdPhone" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdPhone" class="form-control" placeholder="Số điện thoại" />
+                    <span asp-validation-for="VtdPhone" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="VtdAddress" class="form-label fw-semibold"></label>
+                    <input asp-for="VtdAddress" class="form-control" placeholder="Địa chỉ" />
+                    <span asp-validation-for="VtdAddress" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold"><i class="bi bi-image me-1"></i>Ảnh đại diện</label>
+                    <input type="file" name="anhDaiDien" class="form-control" accept="image/*" />
+                    <div class="form-text">Chọn ảnh JPG/PNG cho tài khoản (không bắt buộc).</div>
+                </div>
+
+                <div class="col-md-3 d-flex align-items-center">
+                    <div class="form-check form-switch mt-4">
+
+                        <input type="checkbox"
+                               class="form-check-input"
+                               id="VtdIsAdmin"
+                               name="VtdIsAdmin"
+                               value="true"
+                        @(Model != null && Model.VtdIsAdmin == true ? "checked" : "") />
+
+                        <input type="hidden" name="VtdIsAdmin" value="false" />
+
+                        <label for="VtdIsAdmin" class="form-check-label fw-semibold">
+                            Quản trị
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-flex align-items-center">
+                    <div class="form-check form-switch mt-4">
+
+                        <input type="checkbox"
+                               class="form-check-input"
+                               id="VtdActive"
+                               name="VtdActive"
+                               value="true"
+                        @(Model != null && Model.VtdActive == true ? "checked" : "") />
+
+                        <input type="hidden" name="VtdActive" value="false" />
+
+                        <label for="VtdActive" class="form-check-label fw-semibold">
+                            Hoạt động
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4" />
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary px-4">
+                    <i class="bi bi-check-circle me-1"></i> Tạo mới
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                    <i class="bi bi-arrow-left me-1"></i> Quay lại danh sách
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

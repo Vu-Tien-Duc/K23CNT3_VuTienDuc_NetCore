@@ -1,0 +1,125 @@
+﻿@model IEnumerable<VtdLab07bt2.Models.VtdBanner>
+
+@{
+    ViewData["Title"] = "Quản lý Banner";
+}
+
+<div class="card card-primary card-outline">
+
+    <div class="card-header">
+        <h3 class="card-title">
+            <i class="fas fa-images"></i> Danh sách Banner
+        </h3>
+
+        <div class="card-tools">
+            <a asp-action="Create" class="btn btn-primary btn-sm">
+                <i class="fas fa-plus"></i> Thêm Banner
+            </a>
+        </div>
+    </div>
+
+    <div class="card-body">
+
+        <table class="table table-bordered table-hover text-center">
+
+            <thead class="table-primary">
+                <tr>
+                    <th width="120">Hình ảnh</th>
+                    <th>Tên Banner</th>
+                    <th>Trạng thái</th>
+                    <th>Ưu tiên</th>
+                    <th>Mô tả</th>
+                    <th width="180">Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+
+                            @if (!string.IsNullOrEmpty(item.VtdImage))
+                            {
+                                <img src="~/images/banner/@item.VtdImage"
+                                     class="img-thumbnail"
+                                     style="width:120px;height:70px;object-fit:cover;" />
+                            }
+                            else
+                            {
+                                <img src="~/images/no-image.png"
+                                     class="img-thumbnail"
+                                     style="width:120px;height:70px;object-fit:cover;" />
+                            }
+
+                        </td>
+
+                        <td class="text-left">
+                            @item.VtdName
+                        </td>
+
+                        <td>
+
+                            @if (item.VtdStatus == 1)
+                            {
+                                <span class="badge bg-success">
+                                    Hiển thị
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">
+                                    Ẩn
+                                </span>
+                            }
+
+                        </td>
+
+                        <td>
+                            @item.VtdPriority
+                        </td>
+
+                        <td class="text-left">
+                            @item.VtdDescription
+                        </td>
+
+                        <td>
+
+                            <a asp-action="Edit"
+                               asp-route-id="@item.VtdId"
+                               class="btn btn-warning btn-sm">
+
+                                <i class="fas fa-edit"></i>
+
+                            </a>
+
+                            <a asp-action="Details"
+                               asp-route-id="@item.VtdId"
+                               class="btn btn-info btn-sm">
+
+                                <i class="fas fa-eye"></i>
+
+                            </a>
+
+                            <a asp-action="Delete"
+                               asp-route-id="@item.VtdId"
+                               class="btn btn-danger btn-sm">
+
+                                <i class="fas fa-trash"></i>
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
