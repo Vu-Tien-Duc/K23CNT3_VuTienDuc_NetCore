@@ -1,0 +1,49 @@
+﻿@model VtdBuoi07Lab08.Models.VtdAccount
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>VtdAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="VtdName" class="control-label"></label>
+                <input asp-for="VtdName" class="form-control" />
+                <span asp-validation-for="VtdName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdEmail" class="control-label"></label>
+                <input asp-for="VtdEmail" class="form-control" />
+                <span asp-validation-for="VtdEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdAvatar" class="control-label"></label>
+                <input asp-for="VtdAvatar" type="file" class="form-control" />
+                <span asp-validation-for="VtdAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdPassword" class="control-label"></label>
+                <input asp-for="VtdPassword" class="form-control" />
+                <span asp-validation-for="VtdPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

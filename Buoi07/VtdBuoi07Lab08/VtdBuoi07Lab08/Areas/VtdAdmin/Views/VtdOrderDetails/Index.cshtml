@@ -1,0 +1,76 @@
+﻿@model X.PagedList.IPagedList<VtdBuoi07Lab08.Models.VtdOrderDetail>
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Quản lý Chi tiết Đơn hàng</h1>
+
+<!-- Form Tìm kiếm -->
+<form action="" method="get" class="form-inline mb-3">
+    <div class="form-group">
+        <label class="sr-only" for="keyword">Tìm theo tên sản phẩm</label>
+        <input class="form-control" name="name" id="keyword" placeholder="Nhập tên sản phẩm cần tìm..." value="@ViewBag.keyword">
+    </div>
+
+    <button type="submit" class="btn btn-default mr-1">
+        <i class="fas fa-search"></i>
+    </button>
+
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Thêm mới
+    </a>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdProduct)
+            </th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdOrder.VtdId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdProduct.VtdName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.VtdId" class="btn btn-sm btn-warning">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.VtdId" class="btn btn-sm btn-info">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.VtdId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+<!-- Component Phân trang -->
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, name = ViewBag.keyword }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})

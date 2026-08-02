@@ -1,0 +1,74 @@
+﻿@model VtdBuoi07Lab08.Models.VtdCustomer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>VtdCustomer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="VtdId" />
+            <div class="form-group">
+                <label asp-for="VtdFullName" class="control-label"></label>
+                <input asp-for="VtdFullName" class="form-control" />
+                <span asp-validation-for="VtdFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdEmail" class="control-label"></label>
+                <input asp-for="VtdEmail" class="form-control" />
+                <span asp-validation-for="VtdEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdPhone" class="control-label"></label>
+                <input asp-for="VtdPhone" class="form-control" />
+                <span asp-validation-for="VtdPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdAddress" class="control-label"></label>
+                <input asp-for="VtdAddress" class="form-control" />
+                <span asp-validation-for="VtdAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdAvatar" class="control-label"></label>
+                <input asp-for="VtdAvatar" type="file" class="form-control" />
+                <span asp-validation-for="VtdAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdBirthday" class="control-label"></label>
+                <input asp-for="VtdBirthday" class="form-control" />
+                <span asp-validation-for="VtdBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdGender" class="control-label"></label>
+                <input asp-for="VtdGender" class="form-control" />
+                <span asp-validation-for="VtdGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdPassword" class="control-label"></label>
+                <input asp-for="VtdPassword" class="form-control" />
+                <span asp-validation-for="VtdPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VtdFacebook" class="control-label"></label>
+                <input asp-for="VtdFacebook" class="form-control" />
+                <span asp-validation-for="VtdFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

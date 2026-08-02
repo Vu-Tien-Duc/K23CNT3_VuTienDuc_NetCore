@@ -1,0 +1,107 @@
+﻿@model X.PagedList.IPagedList<VtdBuoi07Lab08.Models.VtdCustomer>
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Quản lý Khách hàng</h1>
+
+<!-- Form Tìm kiếm -->
+<form action="" method="get" class="form-inline mb-3">
+    <div class="form-group">
+        <label class="sr-only" for="keyword">Tìm theo tên khách hàng</label>
+        <input class="form-control" name="name" id="keyword" placeholder="Nhập tên khách hàng cần tìm..." value="@ViewBag.keyword">
+    </div>
+
+    <button type="submit" class="btn btn-default mr-1">
+        <i class="fas fa-search"></i>
+    </button>
+
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Thêm mới
+    </a>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().VtdFacebook)
+            </th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdAddress)
+                </td>
+                <td>
+                    <!-- Hiển thị Ảnh Avatar -->
+                    <img src="@item.VtdAvatar" alt="Avatar" style="max-width: 80px; height: auto; border-radius: 50%;" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdBirthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VtdFacebook)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.VtdId" class="btn btn-sm btn-warning">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.VtdId" class="btn btn-sm btn-info">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.VtdId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+<!-- Component Phân trang -->
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, name = ViewBag.keyword }), new X.PagedList.Web.Common.PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})

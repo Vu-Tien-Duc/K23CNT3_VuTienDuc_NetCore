@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+        <!-- ĐƠN HÀNG -->
+        <div class="col-lg-3 col-6">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    <h3>@ViewBag.TotalOrders</h3>
+                    <p>Tổng đơn hàng</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+                <a asp-area="VtdAdmin" asp-controller="VtdOrders" asp-action="Index" class="small-box-footer">
+                    Xem chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- DOANH THU -->
+        <div class="col-lg-3 col-6">
+            <div class="small-box bg-success">
+                <div class="inner">
+                    <!-- Format tiền tệ thêm dấu phẩy và chữ đ -->
+                    <h3>@String.Format("{0:N0}", ViewBag.TotalRevenue)<sup style="font-size: 20px">đ</sup></h3>
+                    <p>Tổng doanh thu</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-stats-bars"></i>
+                </div>
+                <a asp-area="VtdAdmin" asp-controller="VtdOrderDetails" asp-action="Index" class="small-box-footer">
+                    Xem chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- KHÁCH HÀNG -->
+        <div class="col-lg-3 col-6">
+            <div class="small-box bg-warning">
+                <div class="inner">
+                    <h3>@ViewBag.TotalCustomers</h3>
+                    <p>Khách hàng đăng ký</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-person-add"></i>
+                </div>
+                <a asp-area="VtdAdmin" asp-controller="VtdCustomers" asp-action="Index" class="small-box-footer">
+                    Xem chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- SẢN PHẨM -->
+        <div class="col-lg-3 col-6">
+            <div class="small-box bg-danger">
+                <div class="inner">
+                    <h3>@ViewBag.TotalProducts</h3>
+                    <p>Tổng sản phẩm</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a asp-area="VtdAdmin" asp-controller="VtdProducts" asp-action="Index" class="small-box-footer">
+                    Xem chi tiết <i class="fas fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Main row -->
+    <div class="row">
+    </div>
+    <!-- /.row (main row) -->
+</div><!-- /.container-fluid -->

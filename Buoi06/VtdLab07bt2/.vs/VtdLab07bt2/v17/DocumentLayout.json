@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\views\\shared\\_vtdnavleft.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\views\\shared\\_vtdnavleft.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -95,20 +107,8 @@
       "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\controllers\\vtdblogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|d:\\k23cnt3_vutienduc_netcore\\buoi06\\vtdlab07bt2\\vtdlab07bt2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A58D1918-F51D-4DE4-B193-4045726C156E}|VtdLab07bt2\\VtdLab07bt2.csproj|solutionrelative:vtdlab07bt2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,46 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwD4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T09:03:14.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwE0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:31:05.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VtdProductsController.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdProductsController.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdProductsController.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdProductsController.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdProductsController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwGAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:25:13.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\Shared\\_Layout.cshtml",
@@ -173,12 +134,11 @@
               "RelativeToolTip": "VtdLab07bt2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:02:40.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T08:02:40.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_VtdNavbar.cshtml",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\Shared\\_VtdNavbar.cshtml",
               "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\Shared\\_VtdNavbar.cshtml",
@@ -186,12 +146,11 @@
               "RelativeToolTip": "VtdLab07bt2\\Views\\Shared\\_VtdNavbar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:26:06.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T08:26:06.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_VtdNavLeft.cshtml",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\Shared\\_VtdNavLeft.cshtml",
               "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\Shared\\_VtdNavLeft.cshtml",
@@ -204,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Index.cshtml",
               "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdCategories\\Index.cshtml",
@@ -212,220 +171,11 @@
               "RelativeToolTip": "VtdLab07bt2\\Views\\VtdCategories\\Index.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwCwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T09:03:04.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T09:03:04.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:35:55.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VtdCategoriesController.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:20:42.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:44.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:41.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VtdProduct.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdProduct.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdProduct.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdProduct.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdProduct.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:57:20.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VtdBookStoreDbContext.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAswEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:01:03.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:10.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:04.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VtdCategory.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdCategory.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdCategory.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdCategory.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:47:36.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:43:24.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:52.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:56.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:31:01.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:30:37.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "VtdBannersController.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBannersController.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdBannersController.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBannersController.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdBannersController.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAwwKEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:24:07.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VtdBlogsController.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:24:36.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\_ViewStart.cshtml",
@@ -438,33 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "VtdLab07bt2\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-28T08:02:57.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Program.cs",
-              "RelativeDocumentMoniker": "VtdLab07bt2\\Program.cs",
-              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Program.cs",
-              "RelativeToolTip": "VtdLab07bt2\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T08:01:46.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\appsettings.json",
               "RelativeDocumentMoniker": "VtdLab07bt2\\appsettings.json",
@@ -474,6 +198,259 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-28T08:01:11.34Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Program.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Program.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Program.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:01:46.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VtdProductsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdProductsController.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdProductsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdProductsController.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdProductsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:25:13.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwE0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:31:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T09:03:14.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:35:55.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VtdCategoriesController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdCategoriesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:20:42.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:44.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdCategories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:41.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VtdProduct.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdProduct.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdProduct.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdProduct.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdProduct.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:57:20.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VtdBookStoreDbContext.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdBookStoreDbContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:01:03.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Index.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:10.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:04.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VtdCategory.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdCategory.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Models\\VtdCategory.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Models\\VtdCategory.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Models\\VtdCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:47:36.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdProducts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:43:24.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBanners\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:52.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:56.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdCategories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:31:01.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\VtdBlogs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:30:37.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VtdBannersController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBannersController.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdBannersController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBannersController.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdBannersController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAwwKEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:24:07.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VtdBlogsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
+              "RelativeToolTip": "VtdLab07bt2\\Controllers\\VtdBlogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T08:24:36.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "VtdLab07bt2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Buoi06\\VtdLab07bt2\\VtdLab07bt2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "VtdLab07bt2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-28T08:02:57.585Z"
             }
           ]
         },
