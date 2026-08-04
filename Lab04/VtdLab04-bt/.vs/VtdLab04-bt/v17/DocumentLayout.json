@@ -66,8 +66,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\VtdProduct\\VtdDelete.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:15:30.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:15:30.321Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\VtdProduct\\VtdEdit.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:14:56.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:14:56.169Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\VtdProduct\\VtdDetails.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:13:20.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:13:20.459Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Models\\VtdProduct.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T11:06:51.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:06:51.688Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\VtdProduct\\VtdIndex.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAcwGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:12:18.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:12:18.445Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\VtdProduct\\VtdCreate.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:14:19.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:14:19.557Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T11:19:09.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:19:09.654Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Models\\VtdDataLocal.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T11:07:16.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:07:16.015Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "VtdLab04-bt\\Models\\VtdCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T11:06:15.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T11:06:15.305Z"
             }
           ]
         },

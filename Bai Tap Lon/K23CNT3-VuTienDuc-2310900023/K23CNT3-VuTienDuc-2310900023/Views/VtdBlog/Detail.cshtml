@@ -1,0 +1,248 @@
+﻿@model K23CNT3_VuTienDuc_2310900023.Models.VtdBlog
+@{
+    ViewData["Title"] = Model.VtdName;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Cover ảnh toàn chiều rộng -->
+@if (!string.IsNullOrEmpty(Model.VtdImage))
+{
+    <div class="vtd-cover">
+        <img src="@Model.VtdImage" alt="@Model.VtdName">
+        <div class="vtd-cover-fade"></div>
+    </div>
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="vtd-crumbs-wrap">
+                <ol class="vtd-crumbs">
+                    <li><a asp-controller="VtdHome" asp-action="Index">Trang chủ</a></li>
+                    <li><a asp-controller="VtdBlog" asp-action="Index">Blog</a></li>
+                    <li class="active text-truncate" style="max-width: 320px;">@Model.VtdName</li>
+                </ol>
+            </nav>
+
+            <!-- Khối tiêu đề bài viết -->
+            <div class="vtd-article-head">
+                <h1>@Model.VtdName</h1>
+                <div class="vtd-article-meta">
+                    <span>📅 @Model.VtdCreatedDate.ToString("dd/MM/yyyy - HH:mm")</span>
+                    <span class="vtd-meta-sep">•</span>
+                    <span>👁️ @Model.VtdViewCount lượt xem</span>
+                </div>
+            </div>
+
+            <!-- Nội dung -->
+            <article class="vtd-article-body">
+                @Html.Raw(Model.VtdDescription)
+            </article>
+
+            <!-- Quay lại -->
+            <div class="vtd-back-row">
+                <a asp-controller="VtdBlog" asp-action="Index" class="vtd-back-btn">
+                    &larr; Trở về danh sách bài viết
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <style>
+        :root {
+            --vtd-primary: #16463E;
+            --vtd-primary-dark: #0C2B26;
+            --vtd-accent: #E8763A;
+            --vtd-bg: #F6F5F1;
+            --vtd-surface: #FFFFFF;
+            --vtd-text: #17201E;
+            --vtd-muted: #6B7570;
+            --vtd-border: #E4E2DB;
+            --font-display: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --font-read: 'Merriweather', serif;
+        }
+
+        body {
+            background-color: var(--vtd-bg);
+            font-family: var(--font-body);
+            color: var(--vtd-text);
+        }
+
+        .vtd-cover {
+            position: relative;
+            width: 100%;
+            height: 420px;
+            overflow: hidden;
+            margin-bottom: -70px;
+        }
+
+            .vtd-cover img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .vtd-cover-fade {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(12,43,38,.15) 0%, rgba(12,43,38,.65) 100%);
+        }
+
+        .vtd-crumbs-wrap {
+            position: relative;
+            z-index: 2;
+            padding-top: 2rem;
+        }
+
+        .vtd-crumbs {
+            list-style: none;
+            display: flex;
+            gap: .5rem;
+            padding: .6rem 1.1rem;
+            margin: 0;
+            font-size: .82rem;
+            background: var(--vtd-surface);
+            border-radius: 999px;
+            width: fit-content;
+            box-shadow: 0 8px 20px rgba(12,43,38,.12);
+        }
+
+            .vtd-crumbs li:not(:last-child)::after {
+                content: '/';
+                margin-left: .5rem;
+                color: var(--vtd-muted);
+            }
+
+            .vtd-crumbs a {
+                color: var(--vtd-muted);
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+                .vtd-crumbs a:hover {
+                    color: var(--vtd-primary);
+                }
+
+            .vtd-crumbs .active {
+                color: var(--vtd-primary-dark);
+                font-weight: 700;
+            }
+
+        .vtd-article-head {
+            background: var(--vtd-surface);
+            border-radius: 22px;
+            padding: 2.5rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 14px 34px rgba(12,43,38,.1);
+            position: relative;
+            z-index: 2;
+        }
+
+            .vtd-article-head h1 {
+                font-family: var(--font-display);
+                font-weight: 800;
+                font-size: 2rem;
+                color: var(--vtd-primary-dark);
+                line-height: 1.3;
+                margin-bottom: 1.25rem;
+            }
+
+        .vtd-article-meta {
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+            color: var(--vtd-muted);
+            font-weight: 600;
+            font-size: .9rem;
+        }
+
+        .vtd-meta-sep {
+            color: var(--vtd-border);
+        }
+
+        .vtd-article-body {
+            background: var(--vtd-surface);
+            border-radius: 22px;
+            padding: 2.5rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 8px 24px rgba(12,43,38,.06);
+            font-family: var(--font-read);
+            font-size: 1.08rem;
+            line-height: 1.95;
+            color: var(--vtd-text);
+        }
+
+            .vtd-article-body img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 12px;
+                margin: 1.75rem 0;
+                box-shadow: 0 6px 16px rgba(0,0,0,.1);
+            }
+
+            .vtd-article-body h2, .vtd-article-body h3 {
+                font-family: var(--font-display);
+                font-weight: 700;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                color: var(--vtd-primary-dark);
+            }
+
+            .vtd-article-body p {
+                margin-bottom: 1.5rem;
+            }
+
+                .vtd-article-body p:first-of-type::first-letter {
+                    font-family: var(--font-display);
+                    font-size: 3.2rem;
+                    font-weight: 800;
+                    float: left;
+                    line-height: 1;
+                    margin: .05em .25em 0 0;
+                    color: var(--vtd-accent);
+                }
+
+        .vtd-back-row {
+            text-align: center;
+            margin: 2.5rem 0 3.5rem;
+        }
+
+        .vtd-back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            background: var(--vtd-primary);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            padding: .85rem 2.25rem;
+            border-radius: 999px;
+            box-shadow: 0 8px 20px rgba(12,43,38,.18);
+            transition: background .15s ease, transform .15s ease;
+        }
+
+            .vtd-back-btn:hover {
+                background: var(--vtd-primary-dark);
+                color: #fff;
+                transform: translateY(-2px);
+            }
+
+        @@media (max-width: 767.98px) {
+            .vtd-cover {
+                height: 260px;
+                margin-bottom: -50px;
+            }
+
+            .vtd-article-head, .vtd-article-body {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+}

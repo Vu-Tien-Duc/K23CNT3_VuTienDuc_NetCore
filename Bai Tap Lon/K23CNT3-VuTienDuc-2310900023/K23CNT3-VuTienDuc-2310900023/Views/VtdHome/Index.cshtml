@@ -1,0 +1,576 @@
+﻿@model List<K23CNT3_VuTienDuc_2310900023.Models.VtdProduct>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+
+    // Lấy dữ liệu Banners và Categories từ ViewBag do Controller truyền sang
+    var banners = ViewBag.Banners as List<K23CNT3_VuTienDuc_2310900023.Models.VtdBanner>;
+    var categories = ViewBag.Categories as List<K23CNT3_VuTienDuc_2310900023.Models.VtdCategory>;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- ================= 1. HERO: BANNER + DANH MỤC NHANH ================= -->
+<div class="vtd-hero-zone">
+    <div class="container">
+        <div class="row g-3 g-lg-4">
+
+            <!-- Banner chính (chiếm phần lớn không gian) -->
+            <div class="col-lg-8">
+                @if (banners != null && banners.Count > 0)
+                {
+                    <div id="homeBannerCarousel" class="carousel slide vtd-hero-banner" data-bs-ride="carousel">
+                        <div class="carousel-inner h-100">
+                            @for (int i = 0; i < banners.Count; i++)
+                            {
+                                <div class="carousel-item h-100 @(i == 0 ? "active" : "")">
+                                    <img src="@banners[i].VtdImage" class="d-block w-100 h-100" alt="Banner @i">
+                                    <div class="vtd-hero-caption">
+                                        <span class="vtd-eyebrow">Ưu đãi hôm nay</span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#homeBannerCarousel" data-bs-slide="prev">
+                            <span class="vtd-arrow">&#8249;</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#homeBannerCarousel" data-bs-slide="next">
+                            <span class="vtd-arrow">&#8250;</span>
+                        </button>
+
+                        <div class="carousel-indicators vtd-dots">
+                            @for (int i = 0; i < banners.Count; i++)
+                            {
+                                <button type="button" data-bs-target="#homeBannerCarousel" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")"></button>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Cột danh mục dọc bên phải: điều hướng nhanh -->
+            <div class="col-lg-4">
+                @if (categories != null && categories.Count > 0)
+                {
+                    <div class="vtd-cat-panel">
+                        <div class="vtd-cat-panel-head">
+                            <span class="vtd-eyebrow">Danh mục</span>
+                            <h3>Bạn cần tìm gì?</h3>
+                        </div>
+                        <div class="vtd-cat-list">
+                            @foreach (var cat in categories.Take(6))
+                            {
+                                <!-- SỬA LINK: Truyền CategoryId sang trang Products -->
+                                <a asp-controller="VtdHome" asp-action="Products" asp-route-categoryId="@cat.VtdId" class="vtd-cat-row">
+                                    <span class="vtd-cat-thumb">
+                                        <img src="@cat.VtdImage" alt="@cat.VtdName">
+                                    </span>
+                                    <span class="vtd-cat-name">@cat.VtdName</span>
+                                    <span class="vtd-cat-go">&rarr;</span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= 2. DẢI DANH MỤC NGANG (đầy đủ) ================= -->
+@if (categories != null && categories.Count > 0)
+{
+    <div class="container my-5">
+        <div class="vtd-strip-scroll">
+            @foreach (var cat in categories)
+            {
+                <!-- SỬA LINK: Truyền CategoryId sang trang Products -->
+                <a asp-controller="VtdHome" asp-action="Products" asp-route-categoryId="@cat.VtdId" class="vtd-strip-item">
+                    <span class="vtd-strip-circle">
+                        <img src="@cat.VtdImage" alt="@cat.VtdName">
+                    </span>
+                    <span class="vtd-strip-label" title="@cat.VtdName">@cat.VtdName</span>
+                </a>
+            }
+        </div>
+    </div>
+}
+
+<!-- ================= 3. DANH SÁCH SẢN PHẨM ================= -->
+<div class="container mb-5">
+    <div class="vtd-section-head">
+        <div>
+            <span class="vtd-eyebrow">Vừa cập nhật</span>
+            <h2>Sản phẩm mới nhất</h2>
+        </div>
+        <!-- SỬA LINK: Trỏ sang trang Products (không lọc) để xem tất cả -->
+        <a asp-controller="VtdHome" asp-action="Products" class="vtd-link-more">Xem tất cả <span>&rarr;</span></a>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 g-lg-4">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="vtd-product-card">
+
+                        @if (item.VtdSalePrice > 0 && item.VtdSalePrice < item.VtdPrice)
+                        {
+                            var percentOff = item.VtdPrice > 0 ? (int)Math.Round(100 - (item.VtdSalePrice / item.VtdPrice * 100)) : 0;
+                            <span class="vtd-sale-tag">-@percentOff%</span>
+                        }
+
+                        <!-- SỬA LINK: Đã có sẵn -->
+                        <a asp-controller="VtdHome" asp-action="ProductDetail" asp-route-id="@item.VtdId" class="vtd-product-imgwrap">
+                            <img src="@item.VtdImage" alt="@item.VtdName">
+                        </a>
+
+                        <div class="vtd-product-body">
+                            <!-- SỬA LINK: Đã có sẵn -->
+                            <a asp-controller="VtdHome" asp-action="ProductDetail" asp-route-id="@item.VtdId" class="vtd-product-name" title="@item.VtdName">
+                                @item.VtdName
+                            </a>
+
+                            <div class="vtd-product-price">
+                                @if (item.VtdSalePrice > 0 && item.VtdSalePrice < item.VtdPrice)
+                                {
+                                    <span class="vtd-price-now">@String.Format("{0:#,0} ₫", item.VtdSalePrice)</span>
+                                    <span class="vtd-price-old">@String.Format("{0:#,0} ₫", item.VtdPrice)</span>
+                                }
+                                else
+                                {
+                                    <span class="vtd-price-now">@String.Format("{0:#,0} ₫", item.VtdPrice)</span>
+                                }
+                            </div>
+
+                            <!-- SỬA LINK: Vì chúng ta đã bỏ qua giỏ hàng, nút này sẽ trỏ sang trang Xem chi tiết -->
+                            <a asp-controller="VtdHome" asp-action="ProductDetail" asp-route-id="@item.VtdId" class="vtd-add-btn">
+                                <span>Xem chi tiết</span>
+                                <span class="vtd-add-icon">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="vtd-empty">Hiện tại chưa có sản phẩm nào!</div>
+    }
+</div>
+
+@section Scripts {
+    <style>
+        :root {
+            --vtd-primary: #16463E;
+            --vtd-primary-dark: #0C2B26;
+            --vtd-accent: #E8763A;
+            --vtd-bg: #F6F5F1;
+            --vtd-surface: #FFFFFF;
+            --vtd-text: #17201E;
+            --vtd-muted: #6B7570;
+            --vtd-border: #E4E2DB;
+            --font-display: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--vtd-bg);
+            font-family: var(--font-body);
+            color: var(--vtd-text);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+        }
+
+        .vtd-eyebrow {
+            display: inline-block;
+            font-family: var(--font-body);
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            color: var(--vtd-accent);
+            margin-bottom: .35rem;
+        }
+
+        /* ---- Hero zone ---- */
+        .vtd-hero-zone {
+            padding: 2rem 0 0;
+        }
+
+        .vtd-hero-banner {
+            height: 420px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(12,43,38,.12);
+        }
+
+            .vtd-hero-banner img {
+                width: 100%;
+                height: 420px;
+                object-fit: cover;
+            }
+
+        .vtd-hero-caption {
+            position: absolute;
+            left: 28px;
+            bottom: 24px;
+            background: rgba(12,43,38,.55);
+            backdrop-filter: blur(4px);
+            padding: 8px 16px;
+            border-radius: 999px;
+        }
+
+            .vtd-hero-caption .vtd-eyebrow {
+                color: #FFD9BE;
+                margin: 0;
+            }
+
+        .vtd-hero-banner .carousel-control-prev,
+        .vtd-hero-banner .carousel-control-next {
+            width: 48px;
+            opacity: 1;
+        }
+
+        .vtd-arrow {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,.85);
+            color: var(--vtd-primary-dark);
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .vtd-dots {
+            bottom: 14px;
+        }
+
+            .vtd-dots button {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #fff;
+                opacity: .6;
+            }
+
+                .vtd-dots button.active {
+                    opacity: 1;
+                    background: var(--vtd-accent);
+                }
+
+        /* ---- Category side panel ---- */
+        .vtd-cat-panel {
+            background: var(--vtd-surface);
+            border-radius: 20px;
+            padding: 1.5rem;
+            height: 420px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(12,43,38,.06);
+        }
+
+        .vtd-cat-panel-head h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0 0 1rem;
+            color: var(--vtd-primary-dark);
+        }
+
+        .vtd-cat-list {
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: .35rem;
+        }
+
+        .vtd-cat-row {
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+            padding: .55rem .5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--vtd-text);
+            transition: background .15s ease;
+        }
+
+            .vtd-cat-row:hover {
+                background: var(--vtd-bg);
+                color: var(--vtd-primary);
+            }
+
+        .vtd-cat-thumb {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: var(--vtd-bg);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .vtd-cat-thumb img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .vtd-cat-name {
+            flex: 1;
+            font-weight: 600;
+            font-size: .92rem;
+        }
+
+        .vtd-cat-go {
+            color: var(--vtd-muted);
+            font-weight: 700;
+        }
+
+        .vtd-cat-row:hover .vtd-cat-go {
+            color: var(--vtd-accent);
+        }
+
+        /* ---- Horizontal category strip ---- */
+        .vtd-strip-scroll {
+            display: flex;
+            gap: 1.75rem;
+            overflow-x: auto;
+            padding: .5rem .25rem 1rem;
+            scrollbar-width: thin;
+        }
+
+        .vtd-strip-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+            text-decoration: none;
+            flex: 0 0 auto;
+            width: 84px;
+        }
+
+        .vtd-strip-circle {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: var(--vtd-surface);
+            border: 1px solid var(--vtd-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: border-color .15s ease, transform .15s ease;
+        }
+
+        .vtd-strip-item:hover .vtd-strip-circle {
+            border-color: var(--vtd-accent);
+            transform: translateY(-3px);
+        }
+
+        .vtd-strip-circle img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+        }
+
+        .vtd-strip-label {
+            font-size: .78rem;
+            font-weight: 600;
+            text-align: center;
+            color: var(--vtd-text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 84px;
+        }
+
+        /* ---- Section head ---- */
+        .vtd-section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--vtd-border);
+        }
+
+            .vtd-section-head h2 {
+                font-size: 1.6rem;
+                font-weight: 800;
+                margin: 0;
+                color: var(--vtd-primary-dark);
+            }
+
+        .vtd-link-more {
+            text-decoration: none;
+            font-weight: 700;
+            color: var(--vtd-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: .3rem;
+        }
+
+            .vtd-link-more span {
+                transition: transform .15s ease;
+            }
+
+            .vtd-link-more:hover span {
+                transform: translateX(4px);
+            }
+
+        /* ---- Product card ---- */
+        .vtd-product-card {
+            background: var(--vtd-surface);
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 6px 18px rgba(12,43,38,.06);
+            transition: transform .2s ease, box-shadow .2s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .vtd-product-card:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 16px 30px rgba(12,43,38,.14);
+            }
+
+        .vtd-sale-tag {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            z-index: 2;
+            background: var(--vtd-accent);
+            color: #fff;
+            font-size: .72rem;
+            font-weight: 800;
+            padding: 4px 9px;
+            border-radius: 999px;
+        }
+
+        .vtd-product-imgwrap {
+            display: block;
+            background: var(--vtd-bg);
+            padding: 1.25rem;
+            aspect-ratio: 1 / 1;
+        }
+
+            .vtd-product-imgwrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                mix-blend-mode: multiply;
+            }
+
+        .vtd-product-body {
+            padding: 1rem 1.1rem 1.1rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .vtd-product-name {
+            font-weight: 600;
+            font-size: .92rem;
+            color: var(--vtd-text);
+            text-decoration: none;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: 2.6em;
+            margin-bottom: .6rem;
+        }
+
+            .vtd-product-name:hover {
+                color: var(--vtd-primary);
+            }
+
+        .vtd-product-price {
+            margin-top: auto;
+            margin-bottom: .85rem;
+        }
+
+        .vtd-price-now {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--vtd-accent);
+        }
+
+        .vtd-price-old {
+            font-size: .8rem;
+            color: var(--vtd-muted);
+            text-decoration: line-through;
+            margin-left: .5rem;
+        }
+
+        .vtd-add-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--vtd-primary);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: .82rem;
+            padding: .55rem .9rem;
+            border-radius: 10px;
+            transition: background .15s ease;
+        }
+
+            .vtd-add-btn:hover {
+                background: var(--vtd-primary-dark);
+                color: #fff;
+            }
+
+        .vtd-add-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(255,255,255,.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .9rem;
+        }
+
+        .vtd-empty {
+            text-align: center;
+            padding: 3rem;
+            background: var(--vtd-surface);
+            border-radius: 16px;
+            color: var(--vtd-muted);
+            font-weight: 600;
+        }
+
+        @@media (max-width: 991.98px) {
+            .vtd-hero-banner {
+                height: 260px;
+            }
+
+                .vtd-hero-banner img {
+                    height: 260px;
+                }
+
+            .vtd-cat-panel {
+                height: auto;
+                margin-top: 1rem;
+            }
+        }
+    </style>
+}

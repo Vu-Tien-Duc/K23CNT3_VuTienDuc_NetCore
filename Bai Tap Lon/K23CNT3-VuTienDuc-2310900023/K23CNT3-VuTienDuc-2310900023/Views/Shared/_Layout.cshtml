@@ -1,0 +1,317 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - K23CNT3_VuTienDuc_2310900023</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/K23CNT3_VuTienDuc_2310900023.styles.css" asp-append-version="true" />
+    <style>
+        :root {
+            --vtd-primary: #16463E;
+            --vtd-primary-dark: #0C2B26;
+            --vtd-accent: #E8763A;
+            --vtd-bg: #F6F5F1;
+            --vtd-surface: #FFFFFF;
+            --vtd-text: #17201E;
+            --vtd-muted: #6B7570;
+            --vtd-border: #E4E2DB;
+            --font-display: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-color: var(--vtd-bg);
+            font-family: var(--font-body);
+            color: var(--vtd-text);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+        }
+
+        a {
+            color: var(--vtd-primary);
+        }
+
+            a:hover {
+                color: var(--vtd-primary-dark);
+            }
+
+        /* ---- Navbar ---- */
+        .vtd-navbar {
+            background: var(--vtd-surface);
+            border-bottom: 1px solid var(--vtd-border);
+            box-shadow: 0 2px 12px rgba(12,43,38,.04);
+            padding: .75rem 0;
+        }
+
+        .vtd-brand {
+            font-family: var(--font-display);
+            font-weight: 800;
+            font-size: 1.3rem;
+            color: var(--vtd-primary-dark) !important;
+            letter-spacing: -.01em;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+
+        .vtd-brand-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--vtd-accent);
+            display: inline-block;
+        }
+
+        .vtd-nav-link {
+            font-weight: 600;
+            color: var(--vtd-text) !important;
+            padding: .5rem 1rem !important;
+            border-radius: 999px;
+            transition: background .15s ease, color .15s ease;
+        }
+
+            .vtd-nav-link:hover {
+                background: var(--vtd-bg);
+                color: var(--vtd-primary) !important;
+            }
+
+            .vtd-nav-link.active {
+                background: var(--vtd-primary);
+                color: #fff !important;
+            }
+
+        .vtd-btn-login {
+            font-weight: 600;
+            color: var(--vtd-primary) !important;
+            padding: .5rem 1rem !important;
+        }
+
+        .vtd-btn-register {
+            background: var(--vtd-accent) !important;
+            border: none;
+            color: #fff !important;
+            font-weight: 700;
+            padding: .5rem 1.25rem !important;
+            border-radius: 999px;
+            box-shadow: 0 6px 16px rgba(232,118,58,.25);
+            transition: background .15s ease, transform .15s ease;
+        }
+
+            .vtd-btn-register:hover {
+                background: #D4652A !important;
+                color: #fff !important;
+                transform: translateY(-1px);
+            }
+
+        .vtd-user-pill {
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            background: var(--vtd-bg);
+            border-radius: 999px;
+            padding: .3rem .9rem .3rem .3rem;
+        }
+
+        .vtd-user-avatar {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--vtd-accent);
+        }
+
+        .vtd-user-name {
+            font-weight: 700;
+            color: var(--vtd-primary-dark) !important;
+            font-size: .92rem;
+        }
+
+        .vtd-dropdown-menu {
+            border: 1px solid var(--vtd-border);
+            border-radius: 14px;
+            padding: .5rem;
+            min-width: 220px;
+        }
+
+            .vtd-dropdown-menu .dropdown-item {
+                border-radius: 10px;
+                font-weight: 600;
+                font-size: .9rem;
+                padding: .55rem .75rem;
+            }
+
+                .vtd-dropdown-menu .dropdown-item:hover {
+                    background: var(--vtd-bg);
+                }
+
+        /* ---- Footer ---- */
+        .vtd-footer {
+            background: var(--vtd-primary-dark);
+            color: #DCE7E3;
+            padding: 2.5rem 0 1.5rem;
+            margin-top: 4rem;
+        }
+
+        .vtd-footer-brand {
+            font-family: var(--font-display);
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: #fff;
+            margin-bottom: .5rem;
+        }
+
+        .vtd-footer-tagline {
+            font-size: .88rem;
+            color: #9FB3AC;
+            margin-bottom: 1.5rem;
+        }
+
+        .vtd-footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.25rem;
+        }
+
+            .vtd-footer-links a {
+                color: #DCE7E3;
+                text-decoration: none;
+                font-size: .88rem;
+                font-weight: 600;
+            }
+
+                .vtd-footer-links a:hover {
+                    color: var(--vtd-accent);
+                }
+
+        .vtd-footer-bottom {
+            border-top: 1px solid rgba(255,255,255,.1);
+            padding-top: 1.25rem;
+            font-size: .82rem;
+            color: #8CA098;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm vtd-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand vtd-brand" asp-area="" asp-controller="VtdHome" asp-action="Index">
+                    <span class="vtd-brand-dot"></span> PRODUCT STORE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                    <!-- Menu bên trái -->
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link vtd-nav-link" asp-area="" asp-controller="VtdHome" asp-action="Index">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link vtd-nav-link" asp-area="" asp-controller="VtdHome" asp-action="Products">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link vtd-nav-link" asp-area="" asp-controller="VtdBlog" asp-action="Index">Blog</a>
+                        </li>
+                      
+                    </ul>
+
+                    <!-- Menu góc phải: Hiển thị Đăng nhập / Avatar + Tên khách hàng -->
+                    <ul class="navbar-nav align-items-center">
+                        @{
+                            // Lấy Tên và Ảnh đại diện từ Session
+                            var customerName = HttpContextAccessor.HttpContext?.Session.GetString("CustomerName");
+                            var customerAvatar = HttpContextAccessor.HttpContext?.Session.GetString("CustomerAvatar");
+
+                            // Đặt ảnh mặc định nếu khách hàng chưa có ảnh (tránh lỗi hiển thị)
+                            if (string.IsNullOrEmpty(customerAvatar))
+                            {
+                                customerAvatar = "/images/customers/default.jpg";
+                            }
+                        }
+
+                        @if (!string.IsNullOrEmpty(customerName))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-0 border-0" href="#" id="customerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="vtd-user-pill">
+                                        <img src="@customerAvatar" alt="Avatar" class="vtd-user-avatar" />
+                                        <span class="vtd-user-name">Xin chào, @customerName</span>
+                                    </span>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-end shadow vtd-dropdown-menu mt-2" aria-labelledby="customerDropdown">
+                                    <li><a class="dropdown-item" href="#">👤 Thông tin tài khoản</a></li>
+                                    <li><a class="dropdown-item" href="#">📦 Đơn hàng của tôi</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item text-danger fw-bold" asp-controller="VtdCustomerAuth" asp-action="Logout">🚪 Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link vtd-btn-login" asp-controller="VtdCustomerAuth" asp-action="Login">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link vtd-btn-register ms-2" asp-controller="VtdCustomerAuth" asp-action="Register">Đăng ký</a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="vtd-footer">
+        <div class="container text-center">
+            <div class="vtd-footer-brand">PRODUCT STORE</div>
+            <div class="vtd-footer-tagline">Mua sắm sản phẩm chính hãng, giao nhanh, đổi trả dễ dàng</div>
+            <div class="vtd-footer-links">
+                <a asp-area="" asp-controller="VtdHome" asp-action="Index">Trang chủ</a>
+                <a asp-area="" asp-controller="VtdHome" asp-action="Products">Sản phẩm</a>
+                <a asp-area="" asp-controller="VtdBlog" asp-action="Index">Blog</a>
+            </div>
+            <div class="vtd-footer-bottom">
+                &copy; 2026 - K23CNT3_VuTienDuc_2310900023
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿@model X.PagedList.IPagedList<K23CNT3_VuTienDuc_2310900023.Models.VtdOrderDetail>
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Chi tiết Đơn hàng";
+}
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-outline card-secondary shadow">
+
+            <div class="card-header">
+                <h3 class="card-title">
+                    <a asp-action="Create" class="btn btn-secondary btn-sm">
+                        <i class="fas fa-plus"></i> Thêm mới
+                    </a>
+                </h3>
+
+                <div class="card-tools mt-1">
+                    <form action="" method="get">
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" name="name" class="form-control float-right" placeholder="Tên sản phẩm..." value="@ViewBag.keyword">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover table-striped text-nowrap align-middle">
+                    <thead class="bg-light">
+                        <tr>
+                            <th class="text-center">Mã Đơn hàng</th>
+                            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().VtdProduct)</th>
+                            <th class="text-center">@Html.DisplayNameFor(model => model.FirstOrDefault().VtdQuantity)</th>
+                            <th class="text-danger text-end">@Html.DisplayNameFor(model => model.FirstOrDefault().VtdPrice)</th>
+                            <th class="text-center" style="width: 150px;">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="align-middle text-center fw-bold">#@Html.DisplayFor(modelItem => item.VtdOrder.VtdId)</td>
+                                <td class="align-middle text-primary">@Html.DisplayFor(modelItem => item.VtdProduct.VtdName)</td>
+                                <td class="align-middle text-center">
+                                    <span class="badge bg-primary fs-6">@Html.DisplayFor(modelItem => item.VtdQuantity)</span>
+                                </td>
+                                <td class="align-middle text-danger fw-bold text-end">@Html.DisplayFor(modelItem => item.VtdPrice)</td>
+                                <td class="align-middle text-center">
+                                    <a asp-action="Details" asp-route-id="@item.VtdId" class="btn btn-sm btn-info" title="Chi tiết"><i class="fas fa-eye"></i></a>
+                                    <a asp-action="Edit" asp-route-id="@item.VtdId" class="btn btn-sm btn-warning" title="Sửa"><i class="fas fa-edit"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@item.VtdId" class="btn btn-sm btn-danger" title="Xóa"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-footer clearfix">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, name = ViewBag.keyword }), new X.PagedList.Web.Common.PagedListRenderOptions { LiElementClasses = new string[] { "page-item" }, PageClasses = new string[] { "page-link" }, UlElementClasses = new string[] { "pagination pagination-sm m-0 float-right" } })
+            </div>
+        </div>
+    </div>
+</section>

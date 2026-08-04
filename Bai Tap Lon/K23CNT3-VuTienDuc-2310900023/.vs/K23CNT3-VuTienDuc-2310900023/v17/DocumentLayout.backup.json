@@ -1,0 +1,1439 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdcustomerauth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdcustomerauth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdcustomerauth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdcustomerauth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\controllers\\vtdhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\controllers\\vtdhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\controllers\\vtdcustomerauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\controllers\\vtdcustomerauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\controllers\\vtdblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\controllers\\vtdblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdhome\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdhome\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdnavleft.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdnavleft.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdauth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdauth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtddashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtddashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdadminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdadminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdblog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdblog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\views\\vtdhome\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\views\\vtdhome\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\viewmodels\\vtdcustomerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\viewmodels\\vtdcustomerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\viewmodels\\vtdlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\viewmodels\\vtdlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdcustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdcustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\utilities\\vtdsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\utilities\\vtdsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdorderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdorderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtddashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtddashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdblogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdblogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdbannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\controllers\\vtdbannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\migrations\\20260802021631_vtdv1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\migrations\\20260802021631_vtdv1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\migrations\\vtdappdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\migrations\\vtdappdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdorderdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcustomers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdblogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdbanners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\shared\\_vtdfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\areas\\vtdadmin\\views\\vtdaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\models\\vtdbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\models\\vtdbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|d:\\k23cnt3_vutienduc_netcore\\bai tap lon\\k23cnt3-vutienduc-2310900023\\k23cnt3-vutienduc-2310900023\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9206C48-ED9B-4040-86F6-48943F1F3030}|K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj|solutionrelative:k23cnt3-vutienduc-2310900023\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VtdHomeController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdHomeController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdHomeController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdHomeController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdHomeController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T11:11:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VtdAuthController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAuthController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAuthController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAuthController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T10:30:09.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAuth\\Login.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAuth\\Login.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAuth\\Login.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAuth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T10:42:20.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdDashboard\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdDashboard\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:47.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T09:18:46.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Register.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Register.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Register.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T11:10:24.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Login.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Login.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Login.cshtml*",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdCustomerAuth\\Login.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T11:10:59.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Index.cshtml",
+              "ViewState": "AgIAAB4CAAAAAAAAAAAkwDUCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T09:24:20.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:04.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:22.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VtdBlogController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdBlogController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdBlogController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdBlogController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdBlogController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T09:44:56.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VtdCustomerAuthController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdCustomerAuthController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdCustomerAuthController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdCustomerAuthController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Controllers\\VtdCustomerAuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAnwEIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T11:09:23.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:39.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:04.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_VtdNavLeft.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavLeft.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavLeft.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavLeft.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavLeft.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:46:25.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Products.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Products.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Products.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\Products.cshtml",
+              "ViewState": "AgIAABwBAAAAAAAAAAAkwDMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T10:56:37.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:01.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:44.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:17.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:41.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:13.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Program.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Program.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Program.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:38:48.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VtdBlog.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdBlog.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdBlog.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdBlog.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdBlog.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:48:51.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_VtdNavbar.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavbar.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavbar.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavbar.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T10:42:47.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_VtdAdminLayout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdAdminLayout.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdAdminLayout.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdAdminLayout.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdAdminLayout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:54:32.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Index.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Index.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Index.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Index.cshtml",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAkwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T09:46:12.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\ProductDetail.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\ProductDetail.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdHome\\ProductDetail.cshtml",
+              "ViewState": "AgIAADMBAAAAAAAAAAAkwGwBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T09:39:46.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Detail.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Detail.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Detail.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Views\\VtdBlog\\Detail.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAkwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T09:54:02.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VtdCustomer.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdCustomer.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdCustomer.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdCustomer.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdCustomer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:47:57.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VtdOrdersController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrdersController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrdersController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrdersController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:53.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VtdCustomerLogin.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\ViewModels\\VtdCustomerLogin.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\ViewModels\\VtdCustomerLogin.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\ViewModels\\VtdCustomerLogin.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\ViewModels\\VtdCustomerLogin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T11:07:43.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VtdAccountsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAccountsController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAccountsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAccountsController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdAccountsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwEwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:07.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VtdCustomersController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCustomersController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCustomersController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCustomersController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCustomersController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:34.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VtdLogin.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\ViewModels\\VtdLogin.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\ViewModels\\VtdLogin.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\ViewModels\\VtdLogin.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\ViewModels\\VtdLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T10:14:25.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VtdOrderDetailsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrderDetailsController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrderDetailsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrderDetailsController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdOrderDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:48.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VtdSecurity.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Utilities\\VtdSecurity.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Utilities\\VtdSecurity.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Utilities\\VtdSecurity.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Utilities\\VtdSecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T10:49:08.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "VtdDashboardController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdDashboardController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdDashboardController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdDashboardController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:40.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VtdProductsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdProductsController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdProductsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdProductsController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:52:54.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "VtdCategoriesController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCategoriesController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCategoriesController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCategoriesController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdCategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:29.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "VtdBlogsController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBlogsController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBlogsController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBlogsController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBlogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:22.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "VtdBaseController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBaseController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBaseController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBaseController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T10:23:22.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VtdBannersController.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBannersController.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBannersController.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBannersController.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Controllers\\VtdBannersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:53:15.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "VtdAccount.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdAccount.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdAccount.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdAccount.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:39:23.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:59:17.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:39.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:41.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "VtdAppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Migrations\\VtdAppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Migrations\\VtdAppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Migrations\\VtdAppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Migrations\\VtdAppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:58:58.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260802021631_Vtdv1.Designer.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Migrations\\20260802021631_Vtdv1.Designer.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Migrations\\20260802021631_Vtdv1.Designer.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Migrations\\20260802021631_Vtdv1.Designer.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Migrations\\20260802021631_Vtdv1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:59:06.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:36.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdProducts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:33.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:21.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:15.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:12.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:09.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:58:01.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:59.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:56.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdOrderDetails\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:51.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:41.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:35.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:32.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCustomers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:27.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:19.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:16.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:12.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdCategories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:57:09.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:59.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:56.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBlogs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:51.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:38.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:32.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:29.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdBanners\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:22.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Edit.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Edit.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:09.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Details.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Details.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:56:05.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Delete.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Delete.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:55:48.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "_VtdFooter.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdFooter.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdFooter.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdFooter.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\Shared\\_VtdFooter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:55:46.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Create.cshtml",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Create.cshtml",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Areas\\VtdAdmin\\Views\\VtdAccounts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T09:55:36.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "VtdCategory.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdCategory.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdCategory.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdCategory.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdCategory.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:48:56.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "VtdOrderDetail.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrderDetail.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrderDetail.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrderDetail.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrderDetail.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:48:04.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "VtdOrders.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrders.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrders.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrders.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdOrders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:48:02.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "VtdProduct.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdProduct.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdProduct.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdProduct.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdProduct.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:44:39.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "VtdAppDbContext.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdAppDbContext.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdAppDbContext.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdAppDbContext.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:39:28.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "VtdBanner.cs",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdBanner.cs",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdBanner.cs",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\Models\\VtdBanner.cs",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\Models\\VtdBanner.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T09:48:46.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "K23CNT3-VuTienDuc-2310900023.csproj",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-03T09:39:38.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\appsettings.json",
+              "RelativeDocumentMoniker": "K23CNT3-VuTienDuc-2310900023\\appsettings.json",
+              "ToolTip": "D:\\K23CNT3_VuTienDuc_NetCore\\Bai Tap Lon\\K23CNT3-VuTienDuc-2310900023\\K23CNT3-VuTienDuc-2310900023\\appsettings.json",
+              "RelativeToolTip": "K23CNT3-VuTienDuc-2310900023\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-03T09:38:25.887Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 132,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

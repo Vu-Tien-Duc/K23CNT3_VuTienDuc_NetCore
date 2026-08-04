@@ -1,0 +1,336 @@
+﻿@model IEnumerable<K23CNT3_VuTienDuc_2310900023.Models.VtdBlog>
+
+@{
+    ViewData["Title"] = "Tin tức & Cập nhật";
+    var list = Model?.ToList();
+    var featured = list != null && list.Any() ? list.First() : null;
+    var rest = list != null && list.Count > 1 ? list.Skip(1).ToList() : new List<K23CNT3_VuTienDuc_2310900023.Models.VtdBlog>();
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<div class="container my-4 my-lg-5">
+    <div class="vtd-page-head">
+        <span class="vtd-eyebrow">Blog công nghệ</span>
+        <h1>Tin tức &amp; Sự kiện</h1>
+        <p>Cập nhật những thông tin công nghệ và bài viết mới nhất</p>
+    </div>
+
+    @if (list != null && list.Any())
+    {
+        <!-- Bài viết nổi bật -->
+        @if (featured != null)
+        {
+            <a asp-controller="VtdBlog" asp-action="Detail" asp-route-id="@featured.VtdId" class="vtd-feature-card">
+                <div class="vtd-feature-img">
+                    <img src="@featured.VtdImage" alt="@featured.VtdName">
+                </div>
+                <div class="vtd-feature-body">
+                    <span class="vtd-eyebrow">Bài viết nổi bật</span>
+                    <h2>@featured.VtdName</h2>
+                    <p class="vtd-feature-desc">@featured.VtdDescription</p>
+                    <div class="vtd-feature-meta">
+                        <span>📅 @featured.VtdCreatedDate.ToString("dd/MM/yyyy")</span>
+                        <span>👁️ @featured.VtdViewCount lượt xem</span>
+                    </div>
+                    <span class="vtd-feature-link">Đọc bài viết <span>&rarr;</span></span>
+                </div>
+            </a>
+        }
+
+        <!-- Lưới bài viết còn lại -->
+        @if (rest.Any())
+        {
+            <div class="vtd-grid-head">
+                <h3>Bài viết khác</h3>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                @foreach (var item in rest)
+                {
+                    <div class="col">
+                        <a asp-controller="VtdBlog" asp-action="Detail" asp-route-id="@item.VtdId" class="vtd-blog-card">
+                            <div class="vtd-blog-imgwrap">
+                                <img src="@item.VtdImage" alt="@item.VtdName">
+                                <span class="vtd-blog-date">@item.VtdCreatedDate.ToString("dd/MM/yyyy")</span>
+                            </div>
+                            <div class="vtd-blog-body">
+                                <h5>@item.VtdName</h5>
+                                <p>@item.VtdDescription</p>
+                                <div class="vtd-blog-foot">
+                                    <span>👁️ @item.VtdViewCount lượt xem</span>
+                                    <span class="vtd-blog-readmore">Đọc tiếp &rarr;</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+    }
+    else
+    {
+        <div class="vtd-empty">Hiện tại chưa có bài viết nào được đăng.</div>
+    }
+</div>
+
+@section Scripts {
+    <style>
+        :root {
+            --vtd-primary: #16463E;
+            --vtd-primary-dark: #0C2B26;
+            --vtd-accent: #E8763A;
+            --vtd-bg: #F6F5F1;
+            --vtd-surface: #FFFFFF;
+            --vtd-text: #17201E;
+            --vtd-muted: #6B7570;
+            --vtd-border: #E4E2DB;
+            --font-display: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--vtd-bg);
+            font-family: var(--font-body);
+            color: var(--vtd-text);
+        }
+
+        .vtd-eyebrow {
+            display: inline-block;
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            color: var(--vtd-accent);
+            margin-bottom: .4rem;
+        }
+
+        .vtd-page-head {
+            text-align: center;
+            max-width: 620px;
+            margin: 0 auto 2.5rem;
+        }
+
+            .vtd-page-head h1 {
+                font-family: var(--font-display);
+                font-weight: 800;
+                font-size: 2.1rem;
+                color: var(--vtd-primary-dark);
+                margin-bottom: .5rem;
+            }
+
+            .vtd-page-head p {
+                color: var(--vtd-muted);
+                font-size: 1.02rem;
+            }
+
+        /* Featured */
+        .vtd-feature-card {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 0;
+            background: var(--vtd-surface);
+            border-radius: 22px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            margin-bottom: 3rem;
+            box-shadow: 0 14px 34px rgba(12,43,38,.1);
+            transition: transform .2s ease, box-shadow .2s ease;
+        }
+
+            .vtd-feature-card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 20px 42px rgba(12,43,38,.16);
+            }
+
+        .vtd-feature-img {
+            background: var(--vtd-bg);
+            min-height: 320px;
+        }
+
+            .vtd-feature-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .vtd-feature-body {
+            padding: 2.25rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .vtd-feature-body h2 {
+                font-family: var(--font-display);
+                font-weight: 800;
+                font-size: 1.6rem;
+                color: var(--vtd-primary-dark);
+                line-height: 1.3;
+                margin-bottom: .85rem;
+            }
+
+        .vtd-feature-desc {
+            color: var(--vtd-muted);
+            line-height: 1.7;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 1.1rem;
+        }
+
+        .vtd-feature-meta {
+            display: flex;
+            gap: 1.25rem;
+            font-size: .85rem;
+            color: var(--vtd-muted);
+            margin-bottom: 1.25rem;
+        }
+
+        .vtd-feature-link {
+            font-weight: 700;
+            color: var(--vtd-primary);
+        }
+
+            .vtd-feature-link span {
+                transition: transform .15s ease;
+                display: inline-block;
+            }
+
+        .vtd-feature-card:hover .vtd-feature-link span {
+            transform: translateX(4px);
+        }
+
+        .vtd-grid-head {
+            margin-bottom: 1.25rem;
+            padding-bottom: .85rem;
+            border-bottom: 1px solid var(--vtd-border);
+        }
+
+            .vtd-grid-head h3 {
+                font-family: var(--font-display);
+                font-weight: 700;
+                font-size: 1.2rem;
+                color: var(--vtd-primary-dark);
+                margin: 0;
+            }
+
+        /* Blog cards */
+        .vtd-blog-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background: var(--vtd-surface);
+            border-radius: 18px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 8px 20px rgba(12,43,38,.06);
+            transition: transform .2s ease, box-shadow .2s ease;
+        }
+
+            .vtd-blog-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 16px 32px rgba(12,43,38,.14);
+            }
+
+        .vtd-blog-imgwrap {
+            position: relative;
+            height: 190px;
+            background: var(--vtd-bg);
+            overflow: hidden;
+        }
+
+            .vtd-blog-imgwrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform .5s ease;
+            }
+
+        .vtd-blog-card:hover .vtd-blog-imgwrap img {
+            transform: scale(1.08);
+        }
+
+        .vtd-blog-date {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(12,43,38,.75);
+            color: #fff;
+            font-size: .72rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 999px;
+        }
+
+        .vtd-blog-body {
+            padding: 1.25rem 1.4rem 1.4rem;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+            .vtd-blog-body h5 {
+                font-family: var(--font-display);
+                font-weight: 700;
+                font-size: 1.05rem;
+                color: var(--vtd-primary-dark);
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                margin-bottom: .6rem;
+            }
+
+            .vtd-blog-body p {
+                color: var(--vtd-muted);
+                font-size: .9rem;
+                line-height: 1.6;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                margin-bottom: 1rem;
+            }
+
+        .vtd-blog-foot {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: .8rem;
+            color: var(--vtd-muted);
+        }
+
+        .vtd-blog-readmore {
+            font-weight: 700;
+            color: var(--vtd-primary);
+        }
+
+        .vtd-empty {
+            text-align: center;
+            padding: 3rem;
+            background: var(--vtd-surface);
+            border-radius: 16px;
+            color: var(--vtd-muted);
+            font-weight: 600;
+        }
+
+        @@media (max-width: 767.98px) {
+            .vtd-feature-card {
+                grid-template-columns: 1fr;
+            }
+
+            .vtd-feature-img {
+                min-height: 220px;
+            }
+
+            .vtd-feature-body {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+}

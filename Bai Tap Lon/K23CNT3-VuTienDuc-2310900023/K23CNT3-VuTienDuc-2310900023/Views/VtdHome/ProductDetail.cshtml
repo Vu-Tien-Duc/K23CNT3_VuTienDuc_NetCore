@@ -1,0 +1,423 @@
+﻿@model K23CNT3_VuTienDuc_2310900023.Models.VtdProduct
+
+@{
+    ViewData["Title"] = Model.VtdName;
+    var hasSale = Model.VtdSalePrice > 0 && Model.VtdSalePrice < Model.VtdPrice;
+    var percentOff = hasSale && Model.VtdPrice > 0 ? (int)Math.Round(100 - (Model.VtdSalePrice / Model.VtdPrice * 100)) : 0;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<div class="container my-4 my-lg-5">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="vtd-crumbs">
+            <li><a asp-controller="VtdHome" asp-action="Index">Trang chủ</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li class="active">@Model.VtdName</li>
+        </ol>
+    </nav>
+
+    <div class="row g-4 g-lg-5">
+        <!-- Cột trái: Ảnh sản phẩm (sticky) -->
+        <div class="col-lg-5">
+            <div class="vtd-media-sticky">
+                <div class="vtd-media-frame">
+                    @if (hasSale)
+                    {
+                        <span class="vtd-media-badge">-@percentOff%</span>
+                    }
+                    <img src="@Model.VtdImage" alt="@Model.VtdName">
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột phải: Thông tin & mua hàng -->
+        <div class="col-lg-7">
+            <span class="vtd-eyebrow">Mã SP #@Model.VtdId</span>
+            <h1 class="vtd-title">@Model.VtdName</h1>
+
+            <div class="vtd-status-row">
+                <span class="vtd-instock">
+                    <span class="vtd-dot"></span> Còn hàng
+                </span>
+                <span class="vtd-status-sep">•</span>
+                <span class="text-muted small">Giao nhanh trong 2-4 ngày</span>
+            </div>
+
+            <!-- Buy box -->
+            <div class="vtd-buybox">
+                <div class="vtd-price-block">
+                    @if (hasSale)
+                    {
+                        <div class="vtd-price-row">
+                            <span class="vtd-price-main">@String.Format("{0:#,0} ₫", Model.VtdSalePrice)</span>
+                            <span class="vtd-price-badge">Tiết kiệm @percentOff%</span>
+                        </div>
+                        <div class="vtd-price-old">Giá gốc: @String.Format("{0:#,0} ₫", Model.VtdPrice)</div>
+                    }
+                    else
+                    {
+                        <div class="vtd-price-row">
+                            <span class="vtd-price-main">@String.Format("{0:#,0} ₫", Model.VtdPrice)</span>
+                        </div>
+                    }
+                </div>
+
+                <div class="vtd-qty-row">
+                    <span class="vtd-qty-label">Số lượng</span>
+                    <div class="vtd-qty-stepper">
+                        <button type="button" onclick="this.parentNode.querySelector('input').stepDown()">−</button>
+                        <input type="number" value="1" min="1" max="50">
+                        <button type="button" onclick="this.parentNode.querySelector('input').stepUp()">+</button>
+                    </div>
+                </div>
+
+                <div class="vtd-cta-row">
+                    <button class="vtd-btn vtd-btn-outline">
+                        🛒 Thêm vào giỏ
+                    </button>
+                    <button class="vtd-btn vtd-btn-solid">
+                        Mua ngay &rarr;
+                    </button>
+                </div>
+
+                <div class="vtd-trust-row">
+                    <div class="vtd-trust-item"><span>✔</span> Hàng chính hãng</div>
+                    <div class="vtd-trust-item"><span>↺</span> Đổi trả 7 ngày</div>
+                    <div class="vtd-trust-item"><span>🔒</span> Thanh toán an toàn</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mô tả sản phẩm -->
+    <div class="row mt-5">
+        <div class="col-lg-9">
+            <div class="vtd-desc-card">
+                <h4 class="vtd-desc-title">Chi tiết &amp; mô tả sản phẩm</h4>
+                <div class="vtd-desc-body">
+                    @if (!string.IsNullOrEmpty(Model.VtdDescription))
+                    {
+                        @Html.Raw(Model.VtdDescription)
+                    }
+                    else
+                    {
+                        <p class="text-muted mb-0">Chưa có thông tin mô tả chi tiết cho sản phẩm này.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <style>
+        :root {
+            --vtd-primary: #16463E;
+            --vtd-primary-dark: #0C2B26;
+            --vtd-accent: #E8763A;
+            --vtd-bg: #F6F5F1;
+            --vtd-surface: #FFFFFF;
+            --vtd-text: #17201E;
+            --vtd-muted: #6B7570;
+            --vtd-border: #E4E2DB;
+            --font-display: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--vtd-bg);
+            font-family: var(--font-body);
+            color: var(--vtd-text);
+        }
+
+        .vtd-crumbs {
+            list-style: none;
+            display: flex;
+            gap: .5rem;
+            padding: 0;
+            margin: 0;
+            font-size: .85rem;
+        }
+
+            .vtd-crumbs li:not(:last-child)::after {
+                content: '/';
+                margin-left: .5rem;
+                color: var(--vtd-muted);
+            }
+
+            .vtd-crumbs a {
+                color: var(--vtd-muted);
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+                .vtd-crumbs a:hover {
+                    color: var(--vtd-primary);
+                }
+
+            .vtd-crumbs .active {
+                color: var(--vtd-primary-dark);
+                font-weight: 700;
+            }
+
+        .vtd-media-sticky {
+            position: sticky;
+            top: 20px;
+        }
+
+        .vtd-media-frame {
+            position: relative;
+            background: var(--vtd-surface);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(12,43,38,.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            aspect-ratio: 1 / 1;
+        }
+
+            .vtd-media-frame img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+
+        .vtd-media-badge {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            background: var(--vtd-accent);
+            color: #fff;
+            font-weight: 800;
+            font-size: .8rem;
+            padding: 5px 12px;
+            border-radius: 999px;
+        }
+
+        .vtd-eyebrow {
+            display: inline-block;
+            font-family: var(--font-body);
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            color: var(--vtd-accent);
+            margin-bottom: .5rem;
+        }
+
+        .vtd-title {
+            font-family: var(--font-display);
+            font-weight: 800;
+            font-size: 1.9rem;
+            color: var(--vtd-primary-dark);
+            line-height: 1.25;
+            margin-bottom: 1rem;
+        }
+
+        .vtd-status-row {
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .vtd-instock {
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            font-weight: 700;
+            color: #1E8E5A;
+            font-size: .88rem;
+        }
+
+        .vtd-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #1E8E5A;
+        }
+
+        .vtd-status-sep {
+            color: var(--vtd-border);
+        }
+
+        .vtd-buybox {
+            background: var(--vtd-surface);
+            border-radius: 18px;
+            padding: 1.75rem;
+            box-shadow: 0 8px 24px rgba(12,43,38,.06);
+            border: 1px solid var(--vtd-border);
+        }
+
+        .vtd-price-row {
+            display: flex;
+            align-items: baseline;
+            gap: .8rem;
+            flex-wrap: wrap;
+        }
+
+        .vtd-price-main {
+            font-family: var(--font-display);
+            font-weight: 800;
+            font-size: 2.1rem;
+            color: var(--vtd-accent);
+        }
+
+        .vtd-price-badge {
+            background: #FFF1E8;
+            color: var(--vtd-accent);
+            font-weight: 700;
+            font-size: .78rem;
+            padding: 4px 10px;
+            border-radius: 999px;
+        }
+
+        .vtd-price-old {
+            color: var(--vtd-muted);
+            text-decoration: line-through;
+            font-size: .95rem;
+            margin-top: .25rem;
+        }
+
+        .vtd-qty-row {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .vtd-qty-label {
+            font-weight: 700;
+            font-size: .9rem;
+            color: var(--vtd-text);
+        }
+
+        .vtd-qty-stepper {
+            display: flex;
+            align-items: center;
+            border: 1px solid var(--vtd-border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+            .vtd-qty-stepper button {
+                width: 38px;
+                height: 38px;
+                border: none;
+                background: var(--vtd-bg);
+                font-size: 1.1rem;
+                font-weight: 700;
+                color: var(--vtd-primary-dark);
+            }
+
+            .vtd-qty-stepper input {
+                width: 50px;
+                height: 38px;
+                border: none;
+                text-align: center;
+                font-weight: 700;
+                -moz-appearance: textfield;
+            }
+
+                .vtd-qty-stepper input::-webkit-inner-spin-button, .vtd-qty-stepper input::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+        .vtd-cta-row {
+            display: flex;
+            gap: .85rem;
+            flex-wrap: wrap;
+        }
+
+        .vtd-btn {
+            flex: 1;
+            min-width: 160px;
+            border-radius: 12px;
+            padding: .85rem 1.25rem;
+            font-weight: 700;
+            font-size: .95rem;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            transition: transform .12s ease, background .15s ease;
+        }
+
+            .vtd-btn:hover {
+                transform: translateY(-2px);
+            }
+
+        .vtd-btn-outline {
+            background: var(--vtd-surface);
+            color: var(--vtd-primary);
+            border: 2px solid var(--vtd-primary);
+        }
+
+            .vtd-btn-outline:hover {
+                background: var(--vtd-bg);
+            }
+
+        .vtd-btn-solid {
+            background: var(--vtd-accent);
+            color: #fff;
+        }
+
+            .vtd-btn-solid:hover {
+                background: #D4652A;
+                color: #fff;
+            }
+
+        .vtd-trust-row {
+            display: flex;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--vtd-border);
+        }
+
+        .vtd-trust-item {
+            font-size: .82rem;
+            color: var(--vtd-muted);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .35rem;
+        }
+
+        .vtd-desc-card {
+            background: var(--vtd-surface);
+            border-radius: 18px;
+            padding: 2rem;
+            box-shadow: 0 8px 24px rgba(12,43,38,.06);
+        }
+
+        .vtd-desc-title {
+            font-family: var(--font-display);
+            font-weight: 700;
+            color: var(--vtd-primary-dark);
+            margin-bottom: 1.25rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--vtd-border);
+        }
+
+        .vtd-desc-body {
+            line-height: 1.85;
+            font-size: 1.02rem;
+            color: var(--vtd-text);
+        }
+
+        @@media (max-width: 991.98px) {
+            .vtd-media-sticky {
+                position: static;
+            }
+        }
+    </style>
+}

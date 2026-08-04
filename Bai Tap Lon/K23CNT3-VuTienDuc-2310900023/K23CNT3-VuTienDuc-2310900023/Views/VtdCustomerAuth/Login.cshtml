@@ -1,0 +1,47 @@
+﻿@model K23CNT3_VuTienDuc_2310900023.ViewModels.VtdCustomerLogin
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/K23CNT3_VuTienDuc_2310900023.styles.css" asp-append-version="true" />
+@{
+    Layout = null;
+    ViewData["Title"] = "Đăng nhập tài khoản";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-body p-5">
+                    <h3 class="text-center mb-4 fw-bold text-primary">ĐĂNG NHẬP KHÁCH HÀNG</h3>
+
+                    <form asp-controller="VtdCustomerAuth" asp-action="Login" method="post">
+
+                        <!-- Hiển thị lỗi chung (nếu có sai tài khoản/mật khẩu) -->
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3 fw-bold small"></div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Địa chỉ Email</label>
+                            <input asp-for="VtdEmail" class="form-control" placeholder="Nhập email của bạn..." />
+                            <span asp-validation-for="VtdEmail" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Mật khẩu</label>
+                            <input asp-for="VtdPassword" type="password" class="form-control" placeholder="Nhập mật khẩu..." />
+                            <span asp-validation-for="VtdPassword" class="text-danger small"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 py-2 fw-bold shadow-sm">ĐĂNG NHẬP</button>
+                    </form>
+
+                    <div class="mt-4 text-center">
+                        <span class="text-muted">Chưa có tài khoản?</span>
+                        <a asp-controller="VtdCustomerAuth" asp-action="Register" class="text-decoration-none fw-bold">Đăng ký ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

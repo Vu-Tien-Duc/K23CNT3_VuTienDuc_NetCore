@@ -1,0 +1,56 @@
+﻿@model K23CNT3_VuTienDuc_2310900023.Areas.VtdAdmin.ViewModels.VtdLogin
+
+@{
+    Layout = null; // Trang đăng nhập không dùng Layout của Admin
+    ViewData["Title"] = "Đăng nhập hệ thống";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex align-items-center" style="height: 100vh;">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow border-0 rounded-lg">
+                    <div class="card-body p-5">
+                        <h3 class="text-center mb-4 fw-bold text-primary">ĐĂNG NHẬP ADMIN</h3>
+
+                        <form asp-area="VtdAdmin" asp-controller="VtdAuth" asp-action="Login" method="post">
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3 fw-bold"></div>
+
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Email</label>
+                                <input asp-for="VtdEmail" class="form-control" placeholder="Nhập email..." />
+                                <span asp-validation-for="VtdEmail" class="text-danger small"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Mật khẩu</label>
+                                <input asp-for="VtdPassword" type="password" class="form-control" placeholder="Nhập mật khẩu..." />
+                                <span asp-validation-for="VtdPassword" class="text-danger small"></span>
+                            </div>
+
+                            <div class="mb-4 form-check">
+                                <input asp-for="Remember" class="form-check-input" />
+                                <label class="form-check-label" asp-for="Remember">Ghi nhớ đăng nhập</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold">ĐĂNG NHẬP</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

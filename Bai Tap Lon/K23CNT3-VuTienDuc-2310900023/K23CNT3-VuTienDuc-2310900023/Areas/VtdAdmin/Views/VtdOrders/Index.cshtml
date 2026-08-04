@@ -1,0 +1,72 @@
+﻿@model X.PagedList.IPagedList<K23CNT3_VuTienDuc_2310900023.Models.VtdOrders>
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Quản lý Đơn hàng";
+}
+
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-outline card-success shadow">
+
+            <div class="card-header">
+                <h3 class="card-title">
+                    <a asp-action="Create" class="btn btn-success btn-sm">
+                        <i class="fas fa-plus"></i> Tạo đơn mới
+                    </a>
+                </h3>
+
+                <div class="card-tools mt-1">
+                    <form action="" method="get">
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" name="name" class="form-control float-right" placeholder="Tên người nhận..." value="@ViewBag.keyword">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover table-striped text-nowrap align-middle">
+                    <thead class="bg-light">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().VtdName)</th>
+                            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().VtdEmail)</th>
+                            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().VtdAddress)</th>
+                            <th class="text-center">@Html.DisplayNameFor(model => model.FirstOrDefault().VtdCreatedDate)</th>
+                            <th class="text-center">@Html.DisplayNameFor(model => model.FirstOrDefault().VtdStatus)</th>
+                            <th class="text-center" style="width: 150px;">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="align-middle fw-bold">@Html.DisplayFor(modelItem => item.VtdName)</td>
+                                <td class="align-middle">@Html.DisplayFor(modelItem => item.VtdEmail)</td>
+                                <td class="align-middle text-truncate" style="max-width: 200px;">@Html.DisplayFor(modelItem => item.VtdAddress)</td>
+                                <td class="align-middle text-center">@Html.DisplayFor(modelItem => item.VtdCreatedDate)</td>
+                                <td class="align-middle text-center">
+                                    <span class="badge bg-info">@Html.DisplayFor(modelItem => item.VtdStatus)</span>
+                                </td>
+                                <td class="align-middle text-center">
+                                    <a asp-action="Details" asp-route-id="@item.VtdId" class="btn btn-sm btn-info" title="Chi tiết"><i class="fas fa-eye"></i></a>
+                                    <a asp-action="Edit" asp-route-id="@item.VtdId" class="btn btn-sm btn-warning" title="Sửa"><i class="fas fa-edit"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@item.VtdId" class="btn btn-sm btn-danger" title="Xóa"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-footer clearfix">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, name = ViewBag.keyword }), new X.PagedList.Web.Common.PagedListRenderOptions { LiElementClasses = new string[] { "page-item" }, PageClasses = new string[] { "page-link" }, UlElementClasses = new string[] { "pagination pagination-sm m-0 float-right" } })
+            </div>
+        </div>
+    </div>
+</section>

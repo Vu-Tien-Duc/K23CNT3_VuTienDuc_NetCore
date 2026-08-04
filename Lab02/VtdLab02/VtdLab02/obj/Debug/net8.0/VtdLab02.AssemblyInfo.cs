@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VtdLab02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf880f4d71af24b98689cca4646ea9aec19e2d7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d909c0f0f928e28c572f1c09cc92e785e25f8e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VtdLab02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VtdLab02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
